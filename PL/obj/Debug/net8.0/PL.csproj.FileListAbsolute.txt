@@ -156,3 +156,4 @@ C:\Users\fizar\OneDrive\İş masası\Jobs\PL\obj\Debug\net8.0\refint\PL.dll
 C:\Users\fizar\OneDrive\İş masası\Jobs\PL\obj\Debug\net8.0\PL.pdb
 C:\Users\fizar\OneDrive\İş masası\Jobs\PL\obj\Debug\net8.0\PL.genruntimeconfig.cache
 C:\Users\fizar\OneDrive\İş masası\Jobs\PL\obj\Debug\net8.0\ref\PL.dll
+C:\Users\fizar\OneDrive\İş masası\Jobs\PL\bin\Debug\net8.0\PL.staticwebassets.runtime.json
