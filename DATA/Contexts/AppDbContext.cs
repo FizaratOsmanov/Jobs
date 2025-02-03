@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace DATA.Contexts;
 
-public class AppDbContext
+public class AppDbContext:IdentityDbContext<IdentityUser,IdentityRole,string>
 {
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+
 
 }

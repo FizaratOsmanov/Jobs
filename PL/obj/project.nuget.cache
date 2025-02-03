@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uf5svCaTU+o=",
+  "dgSpecHash": "v2qNf6b93Zo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\PL.csproj",
+  "projectFilePath": "C:\\Users\\fizar\\OneDrive\\İş masası\\Jobs\\PL\\PL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fizar\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\fizar\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

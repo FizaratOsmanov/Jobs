@@ -1,0 +1,12 @@
+C:\Users\fizar\OneDrive\İş masası\Jobs\Core\bin\Debug\net8.0\CORE.deps.json
+C:\Users\fizar\OneDrive\İş masası\Jobs\Core\bin\Debug\net8.0\CORE.dll
+C:\Users\fizar\OneDrive\İş masası\Jobs\Core\bin\Debug\net8.0\CORE.pdb
+C:\Users\fizar\OneDrive\İş masası\Jobs\Core\obj\Debug\net8.0\CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fizar\OneDrive\İş masası\Jobs\Core\obj\Debug\net8.0\CORE.AssemblyInfoInputs.cache
+C:\Users\fizar\OneDrive\İş masası\Jobs\Core\obj\Debug\net8.0\CORE.AssemblyInfo.cs
+C:\Users\fizar\OneDrive\İş masası\Jobs\Core\obj\Debug\net8.0\CORE.csproj.CoreCompileInputs.cache
+C:\Users\fizar\OneDrive\İş masası\Jobs\Core\obj\Debug\net8.0\CORE.sourcelink.json
+C:\Users\fizar\OneDrive\İş masası\Jobs\Core\obj\Debug\net8.0\CORE.dll
+C:\Users\fizar\OneDrive\İş masası\Jobs\Core\obj\Debug\net8.0\refint\CORE.dll
+C:\Users\fizar\OneDrive\İş masası\Jobs\Core\obj\Debug\net8.0\CORE.pdb
+C:\Users\fizar\OneDrive\İş masası\Jobs\Core\obj\Debug\net8.0\ref\CORE.dll
