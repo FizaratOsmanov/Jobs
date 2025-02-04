@@ -1,0 +1,284 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fizar\\source\\repos\\Jobs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\source\\repos\\jobs\\pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\source\\repos\\jobs\\pl\\plconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\plconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\source\\repos\\jobs\\data\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\source\\repos\\jobs\\data\\repositories\\writerepositories\\implementations\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\repositories\\writerepositories\\implementations\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\source\\repos\\jobs\\data\\repositories\\writerepositories\\abstractions\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\repositories\\writerepositories\\abstractions\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\source\\repos\\jobs\\data\\repositories\\readrepositories\\implementations\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\repositories\\readrepositories\\implementations\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\source\\repos\\jobs\\data\\repositories\\readrepositories\\abstractions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\repositories\\readrepositories\\abstractions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\source\\repos\\jobs\\data\\dataconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\dataconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\source\\repos\\jobs\\bl\\blconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\blconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\source\\repos\\jobs\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\source\\repos\\jobs\\pl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\source\\repos\\jobs\\pl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\source\\repos\\jobs\\pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\source\\repos\\jobs\\pl\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\Repositories\\WriteRepositories\\Implementations\\WriteRepository.cs",
+              "RelativeDocumentMoniker": "DATA\\Repositories\\WriteRepositories\\Implementations\\WriteRepository.cs",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\Repositories\\WriteRepositories\\Implementations\\WriteRepository.cs",
+              "RelativeToolTip": "DATA\\Repositories\\WriteRepositories\\Implementations\\WriteRepository.cs",
+              "ViewState": "AgIAAAAAAABgw7mqTY8ZwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T01:03:13.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\Repositories\\WriteRepositories\\Abstractions\\IWriteRepository.cs",
+              "RelativeDocumentMoniker": "DATA\\Repositories\\WriteRepositories\\Abstractions\\IWriteRepository.cs",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\Repositories\\WriteRepositories\\Abstractions\\IWriteRepository.cs",
+              "RelativeToolTip": "DATA\\Repositories\\WriteRepositories\\Abstractions\\IWriteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T01:02:57.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\Repositories\\ReadRepositories\\Implementations\\ReadRepository.cs",
+              "RelativeDocumentMoniker": "DATA\\Repositories\\ReadRepositories\\Implementations\\ReadRepository.cs",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\Repositories\\ReadRepositories\\Implementations\\ReadRepository.cs",
+              "RelativeToolTip": "DATA\\Repositories\\ReadRepositories\\Implementations\\ReadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T01:02:38.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\Repositories\\ReadRepositories\\Abstractions\\IReadRepository.cs",
+              "RelativeDocumentMoniker": "DATA\\Repositories\\ReadRepositories\\Abstractions\\IReadRepository.cs",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\Repositories\\ReadRepositories\\Abstractions\\IReadRepository.cs",
+              "RelativeToolTip": "DATA\\Repositories\\ReadRepositories\\Abstractions\\IReadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T01:02:25.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DATA",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\DATA.csproj",
+              "RelativeDocumentMoniker": "DATA\\DATA.csproj",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\DATA.csproj",
+              "RelativeToolTip": "DATA\\DATA.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-04T00:41:14.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PLConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\PLConfigurations.cs",
+              "RelativeDocumentMoniker": "PL\\PLConfigurations.cs",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\PLConfigurations.cs",
+              "RelativeToolTip": "PL\\PLConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T00:44:24.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BLConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\BL\\BLConfigurations.cs",
+              "RelativeDocumentMoniker": "BL\\BLConfigurations.cs",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\BL\\BLConfigurations.cs",
+              "RelativeToolTip": "BL\\BLConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T00:41:58.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DATAConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\DATAConfigurations.cs",
+              "RelativeDocumentMoniker": "DATA\\DATAConfigurations.cs",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\DATAConfigurations.cs",
+              "RelativeToolTip": "DATA\\DATAConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T00:41:11.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DATA\\Contexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\DATA\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "DATA\\Contexts\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAADgTxYjDnMUwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T00:37:43.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PL\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-04T00:29:13.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PL\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PL\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T00:29:00.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\appsettings.json",
+              "RelativeDocumentMoniker": "PL\\appsettings.json",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\appsettings.json",
+              "RelativeToolTip": "PL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-04T00:15:29.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\Program.cs",
+              "RelativeDocumentMoniker": "PL\\Program.cs",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\Program.cs",
+              "RelativeToolTip": "PL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T00:15:00.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PL\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\fizar\\source\\repos\\Jobs\\PL\\appsettings.Development.json",
+              "RelativeToolTip": "PL\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-03T23:40:41.387Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
