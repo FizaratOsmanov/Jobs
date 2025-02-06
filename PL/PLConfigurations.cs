@@ -2,4 +2,8 @@
 
 public class PLConfigurations
 {
+    public PLConfigurations(IServiceCollection services)
+    {
+
+    }
 }
