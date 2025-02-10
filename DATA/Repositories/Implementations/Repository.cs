@@ -21,7 +21,7 @@ public class Repository<T> : IRepository<T> where T : BaseEntity, new()
         IQueryable<T> query = Table;
 
         if (includes.Length > 0)
-        {
+        { 
             foreach (string include in includes)
             {
                 query = query.Include(include);
@@ -42,10 +42,8 @@ public class Repository<T> : IRepository<T> where T : BaseEntity, new()
                 query = query.Include(include);
             }
         }
-
         return await query.SingleOrDefaultAsync(e => e.Id == id);
     }
-
     public async Task CreateAsync(T entity)
     {
         entity.CreatedDate = DateTime.UtcNow.AddHours(4);
@@ -62,11 +60,12 @@ public class Repository<T> : IRepository<T> where T : BaseEntity, new()
     {
         entity.DeletedDate = DateTime.UtcNow.AddHours(4);
         entity.IsDeleted = true;
-    }
-    public void HardDelete(T entity)
-    {
-        Table.Remove(entity);
+        _context.Update(entity);
     }
 
+    public void HardDelete(T entity)
+    {
+         Table.Remove(entity);
+    }
     public async Task<int> SaveChangesAsync() => await _context.SaveChangesAsync();
 }

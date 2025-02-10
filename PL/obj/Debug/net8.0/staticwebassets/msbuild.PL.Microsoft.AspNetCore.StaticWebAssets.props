@@ -35532,5 +35532,95 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\bootstrap\scss\_variables.scss'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\SliderItems\6027e8cd-3c2e-481b-a60c-528c067a6c17digitalfoto1-1200x800.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PL</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PL</BasePath>
+      <RelativePath>Uploads/SliderItems/6027e8cd-3c2e-481b-a60c-528c067a6c17digitalfoto1-1200x800.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>92g0xfhzvm</Fingerprint>
+      <Integrity>UX53o9OcQ7t7um55NJyO4NrltYxx2noAeI5eAUeXaqw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\SliderItems\6027e8cd-3c2e-481b-a60c-528c067a6c17digitalfoto1-1200x800.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\SliderItems\796110f9-7479-4848-9857-ac5c0c8769c2digitalfoto1-1200x800.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PL</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PL</BasePath>
+      <RelativePath>Uploads/SliderItems/796110f9-7479-4848-9857-ac5c0c8769c2digitalfoto1-1200x800.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>92g0xfhzvm</Fingerprint>
+      <Integrity>UX53o9OcQ7t7um55NJyO4NrltYxx2noAeI5eAUeXaqw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\SliderItems\796110f9-7479-4848-9857-ac5c0c8769c2digitalfoto1-1200x800.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\SliderItems\b32c1431-eb1a-4335-8f09-2aa0c7944e93digitalfoto1-1200x800.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PL</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PL</BasePath>
+      <RelativePath>Uploads/SliderItems/b32c1431-eb1a-4335-8f09-2aa0c7944e93digitalfoto1-1200x800.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>92g0xfhzvm</Fingerprint>
+      <Integrity>UX53o9OcQ7t7um55NJyO4NrltYxx2noAeI5eAUeXaqw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\SliderItems\b32c1431-eb1a-4335-8f09-2aa0c7944e93digitalfoto1-1200x800.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\SliderItems\d8c505ed-49d0-4235-ae9c-9b11b777773bdigitalfoto1-1200x800.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PL</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PL</BasePath>
+      <RelativePath>Uploads/SliderItems/d8c505ed-49d0-4235-ae9c-9b11b777773bdigitalfoto1-1200x800.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>92g0xfhzvm</Fingerprint>
+      <Integrity>UX53o9OcQ7t7um55NJyO4NrltYxx2noAeI5eAUeXaqw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\SliderItems\d8c505ed-49d0-4235-ae9c-9b11b777773bdigitalfoto1-1200x800.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\SliderItems\e7907f88-a342-487f-a5c5-09b48f536541digitalfoto1-1200x800.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PL</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PL</BasePath>
+      <RelativePath>Uploads/SliderItems/e7907f88-a342-487f-a5c5-09b48f536541digitalfoto1-1200x800.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>92g0xfhzvm</Fingerprint>
+      <Integrity>UX53o9OcQ7t7um55NJyO4NrltYxx2noAeI5eAUeXaqw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\SliderItems\e7907f88-a342-487f-a5c5-09b48f536541digitalfoto1-1200x800.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
   </ItemGroup>
 </Project>

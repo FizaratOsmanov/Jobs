@@ -9,5 +9,6 @@ namespace DATA.Repositories.Abstractions
 {
     public interface ISliderItemRepository:IRepository<SliderItem>
     {
+        
     }
 }
