@@ -1,0 +1,87 @@
+﻿@model UpdateJobDTO;
+@{
+    SelectList? categories = ViewData["Categories"] as SelectList;
+}
+<div class="container-fluid d-flex justify-content-center align-items-center min-vh-100">
+    <div class="row w-100">
+        <div class="col-md-8 mx-auto">
+            <div class="card shadow-lg rounded">
+                <div class="card-body">
+                    <h4 class="text-primary text-center">Update Slider Item</h4>
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label class="font-weight-bold">#</label>
+                            <input asp-for="Id" type="text" class="form-control border-primary p-2">
+                            <span class="text-danger" asp-validation-for="Id"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">CompanyIcon</label>
+                            <input asp-for="CompanyIcon" type="file" class="form-control border-primary p-2">
+                            <span class="text-danger" asp-validation-for="CompanyIcon"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">Title</label>
+                            <input asp-for="Title" type="text" class="form-control border-primary">
+                            <span class="text-danger" asp-validation-for="Title"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">Location</label>
+                            <input asp-for="Location" type="text" class="form-control border-primary">
+                            <span class="text-danger" asp-validation-for="Location"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">MinSalary</label>
+                            <input asp-for="MinSalary" type="text" class="form-control border-primary">
+                            <span class="text-danger" asp-validation-for="MinSalary"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">MaxSalary</label>
+                            <input asp-for="MaxSalary" type="text" class="form-control border-primary">
+                            <span class="text-danger" asp-validation-for="MaxSalary"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">Description</label>
+                            <input asp-for="Description" type="text" class="form-control border-primary">
+                            <span class="text-danger" asp-validation-for="Description"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">Responsiblity</label>
+                            <input asp-for="Responsiblity" type="text" class="form-control border-primary">
+                            <span class="text-danger" asp-validation-for="Responsiblity"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">Qualification</label>
+                            <input asp-for="Qualification" type="text" class="form-control border-primary">
+                            <span class="text-danger" asp-validation-for="Qualification"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">DateLine</label>
+                            <input asp-for="DateLine" type="date" class="form-control border-primary">
+                            <span class="text-danger" asp-validation-for="DateLine"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">VacancyCount</label>
+                            <input asp-for="VacancyCount" type="text" class="form-control border-primary">
+                            <span class="text-danger" asp-validation-for="VacancyCount"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">CompanyDetail</label>
+                            <input asp-for="CompanyDetail" type="text" class="form-control border-primary">
+                            <span class="text-danger" asp-validation-for="CompanyDetail"></span>
+                        </div>
+                        <div class="mb-3">
+                            <select class="custom-select" asp-items="categories" asp-for="CategoryId">
+                                <option selected>Select Category</option>
+                            </select>
+                            <span class="text-danger" asp-validation-for="CategoryId"></span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <a class="btn btn-outline-secondary" asp-controller="Job" asp-action="Index">Cancel</a>
+                            <button type="submit" class="btn btn-primary">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

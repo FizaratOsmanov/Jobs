@@ -436,7 +436,7 @@ namespace DATA.Migrations
             modelBuilder.Entity("CORE.Models.Job", b =>
                 {
                     b.HasOne("CORE.Models.Category", "Category")
-                        .WithMany()
+                        .WithMany("Jobs")
                         .HasForeignKey("CategoryId");
 
                     b.Navigation("Category");
@@ -491,6 +491,11 @@ namespace DATA.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("CORE.Models.Category", b =>
+                {
+                    b.Navigation("Jobs");
                 });
 #pragma warning restore 612, 618
         }

@@ -10,7 +10,6 @@ namespace PL.Areas.Admin.Controllers
     [Area("Admin")]
     public class SliderItemController : Controller
     {
-
         readonly ISliderItemService _sliderItemService;
         readonly IMapper _mapper;
         public SliderItemController(ISliderItemService sliderItemService,IMapper mapper)
@@ -30,12 +29,10 @@ namespace PL.Areas.Admin.Controllers
                 return BadRequest("Something went wrong");
             }
         }
-
         public  IActionResult Create()
         {
             return View();
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(CreateSliderItemDTO dto)

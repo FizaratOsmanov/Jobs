@@ -6,5 +6,6 @@ namespace CORE.Models
     {
         public string? Title { get; set; }
         public int? VacancyCount { get; set; }
+        public ICollection<Job> Jobs { get; set; }
     }
 }

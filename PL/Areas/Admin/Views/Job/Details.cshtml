@@ -1,0 +1,56 @@
+﻿@model Job
+<div class="container">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Place Details</h6>
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <p><strong>Image:</strong> <img style="object-fit: cover; width: 50px; height: 50px;"
+                    src="~/Uploads/Jobs/@Model.CompanyIconPath" class="mb-3" /></p>
+                <hr />
+                <p><strong>Id:</strong> @Model.Id</p>
+                <hr />
+                <p><strong>Title:</strong> @Model.Title</p>
+                <hr />
+                <p><strong>Location:</strong> @Model.Location</p>
+                <hr />
+                <p><strong>Job Nature:</strong> @Model.JobNature</p>
+                <hr />
+                <p><strong>Minimum Salary:</strong> @Model.MinSalary</p>
+                <hr />
+                <p><strong>Maximum Salary:</strong> @Model.MaxSalary</p>
+                <hr />
+                <p><strong>Description:</strong> @Model.Description</p>
+                <hr />
+                <p><strong>Responsibility:</strong> @Model.Responsiblity</p>
+                <hr />
+                <p><strong>Qualification:</strong> @Model.Qualification</p>
+                <hr />
+                <p><strong>DateLine:</strong> @Model.DateLine</p>
+                <hr />
+                <p><strong>Company Details:</strong> @Model.CompanyDetail</p>
+                <hr />
+                <p><strong>Vacancy Count:</strong> @Model.VacancyCount</p>
+                <hr />
+                <p><strong>Category:</strong> @Model.Category.Title</p>
+                <hr />
+                <p><strong>Create Time:</strong> @Model.CreatedDate</p>
+                <hr />
+                @if (Model.UpdatedDate is not null)
+                {
+                    <p><strong>Update Time:</strong> @Model.UpdatedDate</p>
+                    <hr />
+                }
+                @if(Model.IsDeleted ==true)
+                {
+                    <p><strong>Delete Time:</strong> @Model.DeletedDate</p>
+                    
+                }
+                <div class="d-flex justify-content-between">
+                    <a class="btn btn-outline-secondary" asp-controller="Job" asp-action="Index">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

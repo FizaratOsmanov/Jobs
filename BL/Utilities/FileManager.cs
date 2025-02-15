@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 
 namespace BL.Utilities
 {
@@ -26,5 +21,11 @@ namespace BL.Utilities
         }
 
         public static bool CheckType(this IFormFile file, string requiredType) => file.ContentType.Contains(requiredType);
+
+        public static bool IsValidImageType(this IFormFile file)
+        {
+            string[] validTypes = { "image/jpeg", "image/png", "image/jpg", "image/webp", "image/bmp", "image/gif" };
+            return validTypes.Contains(file.ContentType);
+        }
     }
 }
