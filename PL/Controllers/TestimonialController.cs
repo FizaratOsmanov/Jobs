@@ -32,11 +32,14 @@ namespace PL.Controllers
             }
         }
 
-
+        [HttpGet]
         public IActionResult Create() 
         {
             return View();
         }
+
+
+
         [HttpPost]
         public async Task<IActionResult> Create(CreateCommentDTO dto)
         {

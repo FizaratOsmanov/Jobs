@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DATA.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250222091501_changeAppUserIdStringToGuid")]
-    partial class changeAppUserIdStringToGuid
+    [Migration("20250222202025_ChangeAdminInfo2")]
+    partial class ChangeAdminInfo2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -110,25 +110,25 @@ namespace DATA.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "9418a5f2-920a-48aa-8e48-9a7b388a1fed",
+                            Id = "3ece08d2-d4a3-4d25-b78d-b75aa6651bd3",
                             AccessFailedCount = 0,
                             Address = "Baku",
-                            ConcurrencyStamp = "6adf60d6-b26a-4fe5-9f52-2778cc3d9e86",
+                            ConcurrencyStamp = "93e5a2d7-1fd6-49f1-b348-cc68bef56b50",
                             Country = "Azerbaijan",
                             Email = "fizaratzo-ab205@code.edu.az",
                             EmailConfirmed = false,
                             FirstName = "Fizaret",
                             LastName = "Osmanov",
                             LockoutEnabled = false,
-                            NormalizedUserName = "FIZARET",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPAx7WuCaaZNV9H1rRTrl7oSkrVm6s69Q5/N4cLUOAOlBefUdSvc0ZONw6OVtdy7rg==",
+                            NormalizedUserName = "ADMIN",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJPCzFrjjFDpRDa4qs6oUIzdU0mX7BFTUW9ahzLNGqpOO3541D+9wxIwaK4L0vShsA==",
                             PhoneNumber = "+994 (50) 732 5300",
                             PhoneNumberConfirmed = false,
-                            PhotoPath = "admin.jpg",
+                            PhotoPath = "AdminProfile.webp",
                             Profession = "Developer",
-                            SecurityStamp = "66b7b494-627e-4221-ac97-2d467f171507",
+                            SecurityStamp = "39482938-fcfd-45f2-a1e7-9de400b92293",
                             TwoFactorEnabled = false,
-                            UserName = "fizaret"
+                            UserName = "admin"
                         });
                 });
 
@@ -373,13 +373,13 @@ namespace DATA.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "021a3b3d-22f9-42e7-9aa3-7a3b09375ff5",
+                            Id = "dfec424a-b225-4e2e-bd46-4b041b13abda",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "bb7c4e4a-6dfd-4681-a78f-9c5a9f90ed4c",
+                            Id = "1cedefe1-ed59-4a08-89c2-1b4bc2ed00bb",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -474,8 +474,8 @@ namespace DATA.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "9418a5f2-920a-48aa-8e48-9a7b388a1fed",
-                            RoleId = "021a3b3d-22f9-42e7-9aa3-7a3b09375ff5"
+                            UserId = "3ece08d2-d4a3-4d25-b78d-b75aa6651bd3",
+                            RoleId = "dfec424a-b225-4e2e-bd46-4b041b13abda"
                         });
                 });
 

@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\Uploads\Jobs\" />
     <Folder Include="wwwroot\Uploads\SliderItems\" />
   </ItemGroup>
 

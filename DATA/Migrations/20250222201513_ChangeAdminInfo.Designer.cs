@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DATA.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250222085506_addedNullAppUserId")]
-    partial class addedNullAppUserId
+    [Migration("20250222201513_ChangeAdminInfo")]
+    partial class ChangeAdminInfo
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -110,10 +110,10 @@ namespace DATA.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "9418a5f2-920a-48aa-8e48-9a7b388a1fed",
+                            Id = "3ece08d2-d4a3-4d25-b78d-b75aa6651bd3",
                             AccessFailedCount = 0,
                             Address = "Baku",
-                            ConcurrencyStamp = "5b15c66b-dbc5-4597-b43d-37dad46a92fe",
+                            ConcurrencyStamp = "e7156699-9cfe-4e91-8cfd-78c2481e2966",
                             Country = "Azerbaijan",
                             Email = "fizaratzo-ab205@code.edu.az",
                             EmailConfirmed = false,
@@ -121,14 +121,14 @@ namespace DATA.Migrations
                             LastName = "Osmanov",
                             LockoutEnabled = false,
                             NormalizedUserName = "FIZARET",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDCFCLHM0EIWexiv3oQXeDsI4geJ1R0rxLPLC0lIRU6jAUOljbjAF6XXavNiUeOU+w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKiB4XT2nHFGd+oyh5nrd4S7vz6MZElIFhrWTuMT0eQPwbEQ2CNm3y7GhSXM4Lm87Q==",
                             PhoneNumber = "+994 (50) 732 5300",
                             PhoneNumberConfirmed = false,
-                            PhotoPath = "admin.jpg",
+                            PhotoPath = "AdminProfile.webp",
                             Profession = "Developer",
-                            SecurityStamp = "f37afb2b-be8f-44d0-82b0-55a8ae10fb6f",
+                            SecurityStamp = "a5ffea02-ad9e-46da-be1a-031e0c45e293",
                             TwoFactorEnabled = false,
-                            UserName = "fizaret"
+                            UserName = "admin"
                         });
                 });
 
@@ -180,7 +180,10 @@ namespace DATA.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("AppUserId")
+                    b.Property<Guid?>("AppUserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("AppUserId1")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("CreatedBy")
@@ -218,7 +221,7 @@ namespace DATA.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AppUserId");
+                    b.HasIndex("AppUserId1");
 
                     b.ToTable("Comments");
                 });
@@ -370,13 +373,13 @@ namespace DATA.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "021a3b3d-22f9-42e7-9aa3-7a3b09375ff5",
+                            Id = "dfec424a-b225-4e2e-bd46-4b041b13abda",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "bb7c4e4a-6dfd-4681-a78f-9c5a9f90ed4c",
+                            Id = "1cedefe1-ed59-4a08-89c2-1b4bc2ed00bb",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -471,8 +474,8 @@ namespace DATA.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "9418a5f2-920a-48aa-8e48-9a7b388a1fed",
-                            RoleId = "021a3b3d-22f9-42e7-9aa3-7a3b09375ff5"
+                            UserId = "3ece08d2-d4a3-4d25-b78d-b75aa6651bd3",
+                            RoleId = "dfec424a-b225-4e2e-bd46-4b041b13abda"
                         });
                 });
 
@@ -499,7 +502,7 @@ namespace DATA.Migrations
                 {
                     b.HasOne("CORE.Models.AppUser", "AppUser")
                         .WithMany("Comments")
-                        .HasForeignKey("AppUserId");
+                        .HasForeignKey("AppUserId1");
 
                     b.Navigation("AppUser");
                 });

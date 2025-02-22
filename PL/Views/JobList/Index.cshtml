@@ -1,8 +1,13 @@
-﻿@model ICollection<JobListDTO>;
+﻿@{
+	var allJobs = ViewBag.AllJobs as List<JobListDTO>;
+	var fullTimeJobs = ViewBag.FullTimeJobs as List<JobListDTO>;
+	var partTimeJobs = ViewBag.PartTimeJobs as List<JobListDTO>;
+}
+
 <div class="container-xxl py-5">
 	<div class="container">
-		<h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Job Listing</h1>
-		<div class="tab-class text-center wow fadeInUp" data-wow-delay="0.3s">
+		<h1 class="text-center mb-5">Job Listing</h1>
+		<div class="tab-class text-center">
 			<ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
 				<li class="nav-item">
 					<a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-1">
@@ -21,90 +26,40 @@
 				</li>
 			</ul>
 			<div class="tab-content">
-				<div id="tab-1" class="tab-pane fade show p-0">
-					@foreach (JobListDTO item in Model)
+				<!-- All Jobs  -->
+				<div id="tab-1" class="tab-pane fade show active p-0">
+					@foreach (var item in allJobs)
 					{
-						<div class="job-item p-4 mb-4">
-							<div class="row g-4">
-								<div class="col-sm-12 col-md-8 d-flex align-items-center">
-									<img class="flex-shrink-0 img-fluid border rounded" src="~/Uploads/Jobs/@item.CompanyIconPath" alt="" style="width: 80px; height: 80px;">
-									<div class="text-start ps-4">
-										<h5 class="mb-3">@item.Title</h5>
-										<span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>@item.Location</span>
-										<span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>@item.JobNature.ToString()</span>
-										<span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$@item.MinSalary  - $@item.MaxSalary</span>
-									</div>
-								</div>
-								<div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
-									<div class="d-flex mb-3">
-										<a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
-										<a class="btn btn-primary" asp-controller="JobDetails" asp-action="Index" asp-route-id="@item.Id">Detail</a>
-									</div>
-									<small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: @item.DateLine</small>
-								</div>
-							</div>
-						</div>
+						<partial name="_JobItemPartial" model="item" />
+					}
+					@if (!ViewBag.ShowAllAll && ViewBag.TotalAllJobs > 5)
+					{
+						<a class="btn btn-primary py-3 px-5" asp-action="Index" asp-route-showAllAll="true">Browse More Jobs</a>
+					}
+				</div>
 
-					}
-					<a class="btn btn-primary py-3 px-5" href="">Browse More Jobs</a>
-				</div>
+				<!-- FullTime Jobs  -->
 				<div id="tab-2" class="tab-pane fade show p-0">
-					@foreach (JobListDTO item in Model)
+					@foreach (var item in fullTimeJobs)
 					{
-						if (item.JobNature.ToString() == "FullTime")
-						{
-							<div class="job-item p-4 mb-4">
-								<div class="row g-4">
-									<div class="col-sm-12 col-md-8 d-flex align-items-center">
-										<img class="flex-shrink-0 img-fluid border rounded" src="~/Uploads/Jobs/@item.CompanyIconPath" alt="" style="width: 80px; height: 80px;">
-										<div class="text-start ps-4">
-											<h5 class="mb-3">@item.Title</h5>
-											<span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>@item.Location</span>
-											<span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>@item.JobNature.ToString()</span>
-											<span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$@item.MinSalary  - $@item.MaxSalary</span>
-										</div>
-									</div>
-									<div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
-										<div class="d-flex mb-3">
-											<a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
-											<a class="btn btn-primary" asp-controller="JobDetails" asp-action="Index" asp-route-id="@item.Id">Detail</a>
-										</div>
-										<small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: @item.DateLine</small>
-									</div>
-								</div>
-							</div>
-						}
+						<partial name="_JobItemPartial" model="item" />
 					}
-					<a class="btn btn-primary py-3 px-5" href="">Browse More Jobs</a>
+					@if (!ViewBag.ShowAllFullTime && ViewBag.TotalFullTimeJobs > 5)
+					{
+						<a class="btn btn-primary py-3 px-5" asp-action="Index" asp-route-showAllFullTime="true">Browse More Jobs</a>
+					}
 				</div>
+
+				<!-- PartTime Jobs  -->
 				<div id="tab-3" class="tab-pane fade show p-0">
-					@foreach (JobListDTO item in Model)
+					@foreach (var item in partTimeJobs)
 					{
-						if (item.JobNature.ToString() == "PartTime")
-						{
-							<div class="job-item p-4 mb-4">
-								<div class="row g-4">
-									<div class="col-sm-12 col-md-8 d-flex align-items-center">
-										<img class="flex-shrink-0 img-fluid border rounded" src="~/Uploads/Jobs/@item.CompanyIconPath" alt="" style="width: 80px; height: 80px;">
-										<div class="text-start ps-4">
-											<h5 class="mb-3">@item.Title</h5>
-											<span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>@item.Location</span>
-											<span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>@item.JobNature.ToString()</span>
-											<span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$@item.MinSalary  - $@item.MaxSalary</span>
-										</div>
-									</div>
-									<div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
-										<div class="d-flex mb-3">
-											<a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
-											<a class="btn btn-primary" asp-controller="JobDetails" asp-action="Index" asp-route-id="@item.Id">Detail</a>
-										</div>
-										<small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: @item.DateLine</small>
-									</div>
-								</div>
-							</div>
-						}
+						<partial name="_JobItemPartial" model="item" />
 					}
-					<a class="btn btn-primary py-3 px-5" href="">Browse More Jobs</a>
+					@if (!ViewBag.ShowAllPartTime && ViewBag.TotalPartTimeJobs > 5)
+					{
+						<a class="btn btn-primary py-3 px-5" asp-action="Index" asp-route-showAllPartTime="true">Browse More Jobs</a>
+					}
 				</div>
 			</div>
 		</div>
