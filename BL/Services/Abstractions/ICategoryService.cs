@@ -1,6 +1,5 @@
 ﻿using BL.DTOs.CategoryDTOs;
 using CORE.Models;
-
 namespace BL.Services.Abstractions
 {
     public interface ICategoryService

@@ -13,7 +13,6 @@ namespace BL.Services.Implementations
         readonly IMapper _mapper;
         public CategoryService(ICategoryRepository categoryRepository, IMapper mapper)
         {_categoryRepository = categoryRepository;_mapper = mapper;}
-
         public async Task CreateCategoryAsync(CreateCategoryDTO dto)
         {
             Category category = _mapper.Map<Category>(dto);
@@ -24,15 +23,13 @@ namespace BL.Services.Implementations
             await _categoryRepository.CreateAsync(category);
             await _categoryRepository.SaveChangesAsync();
         }
-
         public async Task SoftDeleteCategoryAsync(int id)
         {
             Category category = await GetCategoryByIdWithJobAsync(id);            
             if (category.Jobs.Count != 0) throw new BaseException("This category has jobs!");
             _categoryRepository.SoftDelete(category);
             await _categoryRepository.SaveChangesAsync();
-        }
-        
+        }    
         public async Task HardDeleteCategoryAsync(int id)
         {
             Category category = await GetCategoryByIdWithJobAsync(id);
@@ -44,21 +41,18 @@ namespace BL.Services.Implementations
             _categoryRepository.HardDelete(category);
             await _categoryRepository.SaveChangesAsync();
         }
-
         public async Task<ICollection<AdminGetCategoryDTO>> GetCategoryAdminItemsAsync()
         {
             ICollection<Category> caterories=await _categoryRepository.GetAllAsync();
             ICollection<AdminGetCategoryDTO> dto=_mapper.Map<ICollection<AdminGetCategoryDTO>>(caterories);
             return dto;
         }
-
         public async Task<ICollection<HomeGetCategoryDTO>> GetCategoryHomeItemsAsync()
         {
             ICollection<Category> caterories = await _categoryRepository.GetAllAsync("Jobs");
             ICollection<HomeGetCategoryDTO> dto = _mapper.Map<ICollection<HomeGetCategoryDTO>>(caterories);
             return dto;
         }
-
         public async Task<Category> GetCategoryByIdAsync(int id)
         {
             Category? category = await _categoryRepository.GetByIdAsync(id);
@@ -68,7 +62,6 @@ namespace BL.Services.Implementations
             }
             return category;
         }
-
         public async Task<UpdateCategoryDTO> GetCategoryByIdForUpdateAsync(int id)
         {
             Category category = await GetCategoryByIdAsync(id);
@@ -79,7 +72,6 @@ namespace BL.Services.Implementations
             }
             return dto;
         }
-
         public async Task<Category> GetCategoryByIdWithJobAsync(int id)
         {
             Category? category = await _categoryRepository.GetByIdAsync(id, "Jobs");
@@ -89,7 +81,6 @@ namespace BL.Services.Implementations
             }
             return category;
         }
-
         public async Task UpdateCategoryAsync(UpdateCategoryDTO dto)
         {
             Category oldCategory=await GetCategoryByIdAsync(dto.Id);

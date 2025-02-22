@@ -22,7 +22,6 @@ public class SliderItemService : ISliderItemService
         _repository = repository;
         _mapper = mapper;
     }
-
     public async Task CreateSliderItemAsync(CreateSliderItemDTO dto)
     {
         SliderItem sliderItem = _mapper.Map<SliderItem>(dto);
@@ -30,10 +29,6 @@ public class SliderItemService : ISliderItemService
         await _repository.CreateAsync(sliderItem);
         await _repository.SaveChangesAsync();
     }
-
-
-
-
     public async Task<ICollection<GetSliderItemDTO>> GetAllSliderItemAsync()
     {
         var slider = await _repository.GetAllAsync();
@@ -43,10 +38,6 @@ public class SliderItemService : ISliderItemService
         }
         return _mapper.Map<ICollection<GetSliderItemDTO>>(slider);
     }
-
-
-
-
     public async Task<GetSliderItemDTO?> GetSliderItemByIdAsync(int id)
     {
         SliderItem? slider = await _repository.GetByIdAsync(id);
@@ -57,11 +48,6 @@ public class SliderItemService : ISliderItemService
         GetSliderItemDTO dto = _mapper.Map<GetSliderItemDTO>(slider);
         return dto;
     }
-
-
-
-
-
     public async Task SoftDeleteSliderItemAsync(int id)
     {
         SliderItem? sliderItem= await _repository.GetByIdAsync(id);
@@ -76,11 +62,6 @@ public class SliderItemService : ISliderItemService
             throw new BaseException("Cannot save to databasse");
         }
     }
-
-
-
-
-
     public async Task HardDeleteSliderItemAsync(int id)
     {
         SliderItem? sliderItem = await _repository.GetByIdAsync(id);
@@ -96,13 +77,6 @@ public class SliderItemService : ISliderItemService
         }
         if(sliderItem.ImgPath is not null) File.Delete(Path.Combine(Path.GetFullPath("wwwroot"), "Uploads", "SliderItems", sliderItem.ImgPath));  
     }
-
-
-
-
-
-
-
     public async Task UpdateSliderItemAsync(UpdateSliderItemDTO dto)
     {
         var sliderItem = await GetSliderItemByIdAsync(dto.Id);

@@ -2,12 +2,13 @@
 using BL.DTOs.SliderItemDTOs;
 using BL.Exceptions;
 using BL.Services.Abstractions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace PL.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class SliderItemController : Controller
     {
         readonly ISliderItemService _sliderItemService;

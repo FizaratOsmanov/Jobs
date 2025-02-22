@@ -4,6 +4,7 @@ namespace BL.DTOs.JobDTOs
 {
     public record JobDetailDTO
     {
+        public int Id { get; set; }
         public string CompanyIconPath { get; set; }
         public string Title { get; set; }
         public string Location { get; set; }
@@ -17,5 +18,6 @@ namespace BL.DTOs.JobDTOs
         public string CompanyDetail { get; set; }
         public int VacancyCount { get; set; }
         public int CategoryId { get; set; }       
+        public DateTime CreatedDate { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using CORE.Models.Base;
+﻿using CORE.Enums;
+using CORE.Models.Base;
 namespace CORE.Models
 {
     public  class Job:BaseEntity
@@ -6,7 +7,7 @@ namespace CORE.Models
         public string? CompanyIconPath { get; set; }
         public string? Title { get; set; }
         public string? Location { get; set; }
-        public string? JobNature { get; set; }
+        public JobNature? JobNature { get; set; }
         public decimal? MinSalary { get; set; }
         public decimal? MaxSalary { get; set; }
         public string? Description { get; set; }
@@ -15,7 +16,7 @@ namespace CORE.Models
         public DateTime? DateLine { get; set; }
         public string? CompanyDetail { get; set; }
         public int?  VacancyCount { get; set; }              
-        public int? CategoryId { get; set; }
+        public int CategoryId { get; set; }
         public Category? Category { get; set; }
     }
 }

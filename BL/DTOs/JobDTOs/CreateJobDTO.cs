@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using CORE.Enums;
+using Microsoft.AspNetCore.Http;
 
 namespace BL.DTOs.JobDTOs
 {
@@ -7,6 +8,7 @@ namespace BL.DTOs.JobDTOs
         public IFormFile CompanyIcon { get; set; }
         public string Title { get; set; }
         public string Location { get; set; }
+        public JobNature JobNature { get; set; }
         public decimal MinSalary { get; set; }
         public decimal MaxSalary { get; set; }
         public string Description { get; set; }

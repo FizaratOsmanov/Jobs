@@ -3,6 +3,6 @@
     public enum JobNature
     {
         FullTime,
-        PartTime
+        PartTime,
     }
 }

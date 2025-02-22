@@ -30,8 +30,14 @@ namespace DATA.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Country")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -42,9 +48,6 @@ namespace DATA.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImgPath")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
@@ -73,6 +76,12 @@ namespace DATA.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("PhotoPath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Profession")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -94,6 +103,30 @@ namespace DATA.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "9418a5f2-920a-48aa-8e48-9a7b388a1fed",
+                            AccessFailedCount = 0,
+                            Address = "Baku",
+                            ConcurrencyStamp = "6adf60d6-b26a-4fe5-9f52-2778cc3d9e86",
+                            Country = "Azerbaijan",
+                            Email = "fizaratzo-ab205@code.edu.az",
+                            EmailConfirmed = false,
+                            FirstName = "Fizaret",
+                            LastName = "Osmanov",
+                            LockoutEnabled = false,
+                            NormalizedUserName = "FIZARET",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPAx7WuCaaZNV9H1rRTrl7oSkrVm6s69Q5/N4cLUOAOlBefUdSvc0ZONw6OVtdy7rg==",
+                            PhoneNumber = "+994 (50) 732 5300",
+                            PhoneNumberConfirmed = false,
+                            PhotoPath = "admin.jpg",
+                            Profession = "Developer",
+                            SecurityStamp = "66b7b494-627e-4221-ac97-2d467f171507",
+                            TwoFactorEnabled = false,
+                            UserName = "fizaret"
+                        });
                 });
 
             modelBuilder.Entity("CORE.Models.Category", b =>
@@ -144,6 +177,12 @@ namespace DATA.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<Guid?>("AppUserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("AppUserId1")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
@@ -156,7 +195,7 @@ namespace DATA.Migrations
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("ImgPath")
+                    b.Property<string>("FirstName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
@@ -165,7 +204,7 @@ namespace DATA.Migrations
                     b.Property<string>("Message")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("PhotoPath")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Profession")
@@ -179,6 +218,8 @@ namespace DATA.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AppUserId1");
+
                     b.ToTable("Comments");
                 });
 
@@ -190,7 +231,7 @@ namespace DATA.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("CategoryId")
+                    b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("CompanyDetail")
@@ -220,8 +261,8 @@ namespace DATA.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<string>("JobNature")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("JobNature")
+                        .HasColumnType("int");
 
                     b.Property<string>("Location")
                         .HasColumnType("nvarchar(max)");
@@ -325,6 +366,20 @@ namespace DATA.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "021a3b3d-22f9-42e7-9aa3-7a3b09375ff5",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = "bb7c4e4a-6dfd-4681-a78f-9c5a9f90ed4c",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -412,6 +467,13 @@ namespace DATA.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "9418a5f2-920a-48aa-8e48-9a7b388a1fed",
+                            RoleId = "021a3b3d-22f9-42e7-9aa3-7a3b09375ff5"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -433,11 +495,22 @@ namespace DATA.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("CORE.Models.Comment", b =>
+                {
+                    b.HasOne("CORE.Models.AppUser", "AppUser")
+                        .WithMany("Comments")
+                        .HasForeignKey("AppUserId1");
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("CORE.Models.Job", b =>
                 {
                     b.HasOne("CORE.Models.Category", "Category")
                         .WithMany("Jobs")
-                        .HasForeignKey("CategoryId");
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Category");
                 });
@@ -491,6 +564,11 @@ namespace DATA.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("CORE.Models.AppUser", b =>
+                {
+                    b.Navigation("Comments");
                 });
 
             modelBuilder.Entity("CORE.Models.Category", b =>

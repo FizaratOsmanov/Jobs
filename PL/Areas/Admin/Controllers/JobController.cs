@@ -1,12 +1,15 @@
 ﻿using BL.DTOs.JobDTOs;
 using BL.Exceptions;
 using BL.Services.Abstractions;
+using CORE.Enums;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace PL.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class JobController : Controller
     {
         readonly ICategoryService _categoryService;
@@ -31,9 +34,17 @@ namespace PL.Areas.Admin.Controllers
 
         public async Task<IActionResult> Create()
         {
+
             try
             {
                 ViewData["Categories"] = new SelectList(await _categoryService.GetCategoryAdminItemsAsync(), "Id", "Title");
+                ViewData["JobNatureList"] = Enum.GetValues(typeof(JobNature))
+                                .Cast<JobNature>()
+                                .Select(jn => new SelectListItem
+                                {
+                                    Value = ((int)jn).ToString(),
+                                    Text = jn.ToString()
+                                }).ToList();
                 return View();
             }
             catch (Exception)
@@ -49,6 +60,13 @@ namespace PL.Areas.Admin.Controllers
             if (!ModelState.IsValid)
             {
                 ViewData["Categories"] = new SelectList(await _categoryService.GetCategoryAdminItemsAsync(), "Id", "Title");
+                ViewData["JobNatureList"] = Enum.GetValues(typeof(JobNature))
+                                .Cast<JobNature>()
+                                .Select(jn => new SelectListItem
+                                {
+                                    Value = ((int)jn).ToString(),
+                                    Text = jn.ToString()
+                                }).ToList();
                 return View(dto);
             }
 
