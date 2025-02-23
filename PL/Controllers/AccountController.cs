@@ -4,13 +4,12 @@ using BL.Exceptions;
 using BL.Services.Abstractions;
 using CORE.Enums;
 using CORE.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace PL.Controllers
 {
-    
+
     public class AccountController : Controller
     {
         private readonly IAccountService _service;

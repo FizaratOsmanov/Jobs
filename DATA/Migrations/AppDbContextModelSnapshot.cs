@@ -116,7 +116,7 @@ namespace DATA.Migrations
                             Id = "3ece08d2-d4a3-4d25-b78d-b75aa6651bd3",
                             AccessFailedCount = 0,
                             Address = "Baku",
-                            ConcurrencyStamp = "05e30928-1043-491b-a9b2-55d70859a83c",
+                            ConcurrencyStamp = "267b2cd8-07b6-4c0d-946b-0d9125a8d4c8",
                             Country = "Azerbaijan",
                             Email = "fizaratzo-ab205@code.edu.az",
                             EmailConfirmed = false,
@@ -124,15 +124,73 @@ namespace DATA.Migrations
                             LastName = "Osmanov",
                             LockoutEnabled = false,
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAM3e8wekczNIJhWvqv7ImDTD4xs7F4VzqqvKL32z/vN9ogbNE4llYP+vm7/V+p36g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKw13+LQhdDWUxqoNP+HWfQi4gLs5Qk2H1WE5XtCgXQRTvuejutCrL6sDd6c7R4hHw==",
                             PhoneNumber = "+994 (50) 732 5300",
                             PhoneNumberConfirmed = false,
                             PhotoPath = "Admin.webp",
                             Profession = "Developer",
-                            SecurityStamp = "5d21162c-e387-40d4-b998-c8cf2fc88799",
+                            SecurityStamp = "90f39fe7-0bd2-4775-9089-e54950b21e4d",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
+                });
+
+            modelBuilder.Entity("CORE.Models.ApplyJob", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CV")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("CoverLetter")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DeletedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Portfolio")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ApplyJobs", (string)null);
                 });
 
             modelBuilder.Entity("CORE.Models.Category", b =>

@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using BL.DTOs.ApplyJobDTOs;
 using BL.DTOs.JobDTOs;
 using BL.Services.Abstractions;
+using BL.Utilities;
 using CORE.Enums;
 using CORE.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -11,10 +13,12 @@ namespace PL.Controllers
     {
         readonly IJobService _jobService;
         readonly IMapper _mapper;
-        public JobDetailsController(IJobService jobService, IMapper mapper)
+        readonly IApplyJobService _applyJobService;
+        public JobDetailsController(IJobService jobService, IMapper mapper, IApplyJobService applyJobService)
         {
             _jobService = jobService;
             _mapper = mapper;
+            _applyJobService = applyJobService;
         }
         public async Task<IActionResult> Index(int id)
         {
@@ -35,6 +39,24 @@ namespace PL.Controllers
             {
                 return BadRequest("Something went wrong!");
             }
+        }
+
+        public IActionResult Apply() { return View(); }
+
+        [HttpPost]
+        public async Task<IActionResult> Apply(CreateApplyJobDTO applyJobDTO)
+        {
+            if (!ModelState.IsValid)
+                return View(applyJobDTO);
+
+            string cvFilename = await applyJobDTO.CV.SaveAsync("CVs");
+
+            var applyJob = _mapper.Map<ApplyJob>(applyJobDTO);
+
+            await _applyJobService.SendEmailAsync(applyJob, cvFilename);
+
+            TempData["SuccessMessage"] = "Application submitted successfully.";
+            return RedirectToAction("Apply");
         }
     }
 }

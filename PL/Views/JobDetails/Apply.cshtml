@@ -1,0 +1,31 @@
+﻿@model CreateApplyJobDTO
+<div>
+    <h4 class="mb-4">Apply For The Job</h4>
+    <form asp-action="Apply" asp-controller="JobDetail" method="post" enctype="multipart/form-data">
+        <div class="row g-3">
+            <div class="col-12 col-sm-6">
+                <input asp-for="Name" class="form-control" placeholder="Your Name" required>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="col-12 col-sm-6">
+                <input asp-for="Email" type="email" class="form-control" placeholder="Your Email" required>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="col-12 col-sm-6">
+                <input asp-for="Portfolio" class="form-control" placeholder="Portfolio Website">
+                <span asp-validation-for="Portfolio" class="text-danger"></span>
+            </div>
+            <div class="col-12 col-sm-6">
+                <input asp-for="CV" type="file" class="form-control bg-white" required>
+                <span asp-validation-for="CV" class="text-danger"></span>
+            </div>
+            <div class="col-12">
+                <textarea asp-for="CoverLetter" class="form-control" rows="5" placeholder="Cover Letter"></textarea>
+                <span asp-validation-for="CoverLetter" class="text-danger"></span>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary w-100" type="submit">Apply Now</button>
+            </div>
+        </div>
+    </form>
+</div>

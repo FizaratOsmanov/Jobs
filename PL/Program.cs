@@ -25,6 +25,7 @@ builder.Services.AddScoped<IJobService,JobService>();
 builder.Services.AddScoped<ICommentRepository,CommentRepository>();
 builder.Services.AddScoped<ICommentService,CommentService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IApplyJobService,ApplyJobService>();
 builder.Services.AddAutoMapper(typeof(SliderItemProfile));
 builder.Services.AddAutoMapper(typeof(AccountProfile));
 builder.Services.AddIdentity<AppUser, IdentityRole>(options =>

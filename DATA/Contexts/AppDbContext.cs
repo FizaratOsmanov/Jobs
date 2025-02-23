@@ -14,6 +14,7 @@ public class AppDbContext:IdentityDbContext<AppUser,IdentityRole,string>
     public DbSet<Comment> Comments { get; set; }
     public DbSet<Job> Jobs { get; set; }
     public DbSet<SliderItem> SliderItems { get; set; }
+    public DbSet<ApplyJob> ApplyJobs { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -39,7 +40,7 @@ public class AppDbContext:IdentityDbContext<AppUser,IdentityRole,string>
         PasswordHasher<AppUser> hasher = new PasswordHasher<AppUser>();
 
 
-                                                                
+                                                               
         admin.PasswordHash = hasher.HashPassword(admin,"admin123");
         builder.Entity<AppUser>().HasData(admin);              
 
