@@ -3,52 +3,208 @@
   "WorkspaceRootPath": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\controllers\\jobdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\controllers\\jobdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\areas\\admin\\views\\comments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\comments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\commentdtos\\admingetcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\commentdtos\\admingetcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\testimonial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\testimonial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\joblist\\_jobitempartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\joblist\\_jobitempartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\joblist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\joblist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\jobdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\jobdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250223122623_applyJob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DATA\\Migrations\\20250223122623_applyJob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\jobdetails\\apply.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\jobdetails\\apply.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\slideritemdtos\\getslideritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\slideritemdtos\\getslideritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\jobdtos\\jobdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\jobdtos\\jobdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\utilities\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\utilities\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\jobdtos\\joblistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\jobdtos\\joblistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\commentdtos\\getcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\commentdtos\\getcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\applyjobdtos\\createapplyjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\applyjobdtos\\createapplyjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\categorydtos\\homegetcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\categorydtos\\homegetcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\profiles\\applyjobprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\profiles\\applyjobprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\category\\jobwithcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\category\\jobwithcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\services\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\services\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\services\\implementations\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\services\\implementations\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\profiles\\commentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\profiles\\commentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\profiles\\jobprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\profiles\\jobprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\areas\\admin\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\services\\abstractions\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\services\\abstractions\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\services\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\services\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\profiles\\accountprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\profiles\\accountprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\services\\abstractions\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\services\\abstractions\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\appuserdtos\\admingetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\appuserdtos\\admingetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\appuserdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\appuserdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\appuserdtos\\userpageeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\appuserdtos\\userpageeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\appuserdtos\\userpagegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\appuserdtos\\userpagegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\services\\implementations\\applyjobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\services\\implementations\\applyjobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\controllers\\applyjobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\controllers\\applyjobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\plservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\plservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\core\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|solutionrelative:core\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\core\\models\\applyjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|solutionrelative:core\\models\\applyjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\data\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\blservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\blservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\applyjob\\apply.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\applyjob\\apply.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\applyjobdtos\\createapplyjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\applyjobdtos\\createapplyjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\applyjobdtos\\getapplyjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\applyjobdtos\\getapplyjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\data\\configurations\\applyjobconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\configurations\\applyjobconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\profiles\\applyjobprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\profiles\\applyjobprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,8 +215,40 @@
       "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\services\\abstractions\\iapplyjobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\plconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\plconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\core\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|solutionrelative:core\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\controllers\\jobdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\controllers\\jobdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\data\\configurations\\slideritemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\configurations\\slideritemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250223131751_addedApplyAndJobOneToMany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DATA\\Migrations\\20250223131751_addedApplyAndJobOneToMany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\jobdtos\\createjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\jobdtos\\createjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\data\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\data\\migrations\\20250223122623_applyjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\migrations\\20250223122623_applyjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\utilities\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\utilities\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,10 +263,6 @@
       "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\controllers\\error404controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -87,40 +271,8 @@
       "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\controllers\\joblistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\services\\abstractions\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\services\\abstractions\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\data\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\data\\configurations\\applyjobconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\configurations\\applyjobconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\core\\models\\applyjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|solutionrelative:core\\models\\applyjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\core\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|solutionrelative:core\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\core\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|solutionrelative:core\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\core\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|solutionrelative:core\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\services\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\services\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\data\\configurations\\jobconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,10 +285,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|solutionrelative:core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\data\\configurations\\slideritemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\configurations\\slideritemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D5CB96D-CD18-496B-A46C-4FB5D91402F0}|Core\\CORE.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\core\\models\\slideritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -155,18 +303,6 @@
       "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\slideritemdtos\\updateslideritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\slideritemdtos\\getslideritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\slideritemdtos\\getslideritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\appuserdtos\\userpageeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\appuserdtos\\userpageeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\appuserdtos\\userpagegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\appuserdtos\\userpagegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\appuserdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\appuserdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -175,36 +311,12 @@
       "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\appuserdtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\appuserdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\appuserdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\jobdtos\\updatejobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\jobdtos\\updatejobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\jobdtos\\createjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\jobdtos\\createjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\jobdtos\\joblistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\jobdtos\\joblistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\commentdtos\\createcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\commentdtos\\createcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\jobdtos\\jobdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\jobdtos\\jobdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\commentdtos\\getcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\commentdtos\\getcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\commentdtos\\admingetcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\commentdtos\\admingetcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\categorydtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -215,64 +327,24 @@
       "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\categorydtos\\homegetcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\categorydtos\\homegetcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\categorydtos\\admingetcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\categorydtos\\admingetcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\profiles\\accountprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\profiles\\accountprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\data\\repositories\\abstractions\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\repositories\\abstractions\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\testimonial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\testimonial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\joblist\\_jobitempartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\joblist\\_jobitempartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\category\\jobwithcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\category\\jobwithcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\views\\joblist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\views\\joblist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\dtos\\jobdtos\\admingetjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\dtos\\jobdtos\\admingetjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\services\\implementations\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\services\\implementations\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\areas\\admin\\views\\job\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\job\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -291,10 +363,6 @@
       "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\job\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -309,22 +377,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CB572B99-1ED1-4619-A69F-145F6241D587}|DATA\\DATA.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\pl\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8626ED8C-1C0D-4CF3-A37B-A2948490C806}|PL\\PL.csproj|solutionrelative:pl\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\services\\abstractions\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\services\\abstractions\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\services\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\services\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\profiles\\commentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|solutionrelative:bl\\profiles\\commentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DC0B095-3EBA-44F8-82C7-BBB5874E8D34}|BL\\BL.csproj|c:\\users\\fizar\\onedrive\\\u0130\u015F masas\u0131\\jobs\\bl\\profiles\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -370,7 +422,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1237,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -390,163 +442,670 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Program.cs",
-              "RelativeDocumentMoniker": "PL\\Program.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Program.cs",
-              "RelativeToolTip": "PL\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T12:27:05.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250223122623_applyJob.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250223122623_applyJob.cs",
-              "RelativeDocumentMoniker": "DATA\\Migrations\\20250223122623_applyJob.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250223122623_applyJob.cs",
-              "RelativeToolTip": "DATA\\Migrations\\20250223122623_applyJob.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T12:26:24.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Apply.cshtml",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\JobDetails\\Apply.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\JobDetails\\Apply.cshtml",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\JobDetails\\Apply.cshtml",
-              "RelativeToolTip": "PL\\Views\\JobDetails\\Apply.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T12:20:19.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JobDetailsController.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\JobDetailsController.cs",
-              "RelativeDocumentMoniker": "PL\\Controllers\\JobDetailsController.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\JobDetailsController.cs*",
-              "RelativeToolTip": "PL\\Controllers\\JobDetailsController.cs*",
-              "ViewState": "AgIAABYAAAAAAAAAAAA1wCsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T23:30:35.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\appsettings.json",
-              "RelativeDocumentMoniker": "PL\\appsettings.json",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\appsettings.json",
-              "RelativeToolTip": "PL\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-22T19:55:57.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FileManager.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Utilities\\FileManager.cs",
-              "RelativeDocumentMoniker": "BL\\Utilities\\FileManager.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Utilities\\FileManager.cs",
-              "RelativeToolTip": "BL\\Utilities\\FileManager.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA5wC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T21:32:40.548Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PL\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T21:59:00.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\JobDetails\\Index.cshtml",
               "RelativeDocumentMoniker": "PL\\Views\\JobDetails\\Index.cshtml",
               "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\JobDetails\\Index.cshtml",
               "RelativeToolTip": "PL\\Views\\JobDetails\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-22T23:08:05.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateApplyJobDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\ApplyJobDTOs\\CreateApplyJobDTO.cs",
-              "RelativeDocumentMoniker": "BL\\DTOs\\ApplyJobDTOs\\CreateApplyJobDTO.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\ApplyJobDTOs\\CreateApplyJobDTO.cs",
-              "RelativeToolTip": "BL\\DTOs\\ApplyJobDTOs\\CreateApplyJobDTO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T09:03:10.94Z",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\JobList\\Index.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\JobList\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\JobList\\Index.cshtml",
+              "RelativeToolTip": "PL\\Views\\JobList\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T22:03:20.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "PL\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "_JobItemPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\JobList\\_JobItemPartial.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\JobList\\_JobItemPartial.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\JobList\\_JobItemPartial.cshtml",
+              "RelativeToolTip": "PL\\Views\\JobList\\_JobItemPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T08:17:15.1Z",
+              "WhenOpened": "2025-02-22T23:00:12.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Testimonial\\Index.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Testimonial\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Testimonial\\Index.cshtml",
+              "RelativeToolTip": "PL\\Views\\Testimonial\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T08:03:05.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\Comments\\Index.cshtml",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Comments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\Comments\\Index.cshtml*",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\Comments\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T18:17:32.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminGetCommentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CommentDTOs\\AdminGetCommentDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\CommentDTOs\\AdminGetCommentDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CommentDTOs\\AdminGetCommentDTO.cs*",
+              "RelativeToolTip": "BL\\DTOs\\CommentDTOs\\AdminGetCommentDTO.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:58:29.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "PL\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T23:33:24.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetSliderItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\SliderItemDTOs\\GetSliderItemDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\SliderItemDTOs\\GetSliderItemDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\SliderItemDTOs\\GetSliderItemDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\SliderItemDTOs\\GetSliderItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T00:45:29.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ApplyJobProfile.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\ApplyJobProfile.cs",
-              "RelativeDocumentMoniker": "BL\\Profiles\\ApplyJobProfile.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\ApplyJobProfile.cs",
-              "RelativeToolTip": "BL\\Profiles\\ApplyJobProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "JobDetailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\JobDetailDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\JobDTOs\\JobDetailDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\JobDetailDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\JobDTOs\\JobDetailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T10:10:16.339Z",
+              "WhenOpened": "2025-02-23T00:41:22.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "JobListDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\JobListDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\JobDTOs\\JobListDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\JobListDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\JobDTOs\\JobListDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T00:43:28.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetCommentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CommentDTOs\\GetCommentDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\CommentDTOs\\GetCommentDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CommentDTOs\\GetCommentDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\CommentDTOs\\GetCommentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:58:32.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeGetCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CategoryDTOs\\HomeGetCategoryDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\CategoryDTOs\\HomeGetCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CategoryDTOs\\HomeGetCategoryDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\CategoryDTOs\\HomeGetCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T00:34:02.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JobWithCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Category\\JobWithCategory.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Category\\JobWithCategory.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Category\\JobWithCategory.cshtml",
+              "RelativeToolTip": "PL\\Views\\Category\\JobWithCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T23:33:10.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\CommentService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\Implementations\\CommentService.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\CommentService.cs",
+              "RelativeToolTip": "BL\\Services\\Implementations\\CommentService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:30:00.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JobService.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\JobService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\Implementations\\JobService.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\JobService.cs",
+              "RelativeToolTip": "BL\\Services\\Implementations\\JobService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowFYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T10:11:23.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CommentProfile.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\CommentProfile.cs",
+              "RelativeDocumentMoniker": "BL\\Profiles\\CommentProfile.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\CommentProfile.cs",
+              "RelativeToolTip": "BL\\Profiles\\CommentProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T09:19:05.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "JobProfile.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\JobProfile.cs",
+              "RelativeDocumentMoniker": "BL\\Profiles\\JobProfile.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\JobProfile.cs",
+              "RelativeToolTip": "BL\\Profiles\\JobProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T18:38:00.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Controllers\\CommentsController.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Controllers\\CommentsController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T18:17:22.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:54:16.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T18:26:33.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\ICommentService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\Abstractions\\ICommentService.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\ICommentService.cs",
+              "RelativeToolTip": "BL\\Services\\Abstractions\\ICommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T10:11:04.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T20:35:39.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T20:56:21.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T17:54:24.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AccountProfile.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\AccountProfile.cs",
+              "RelativeDocumentMoniker": "BL\\Profiles\\AccountProfile.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\AccountProfile.cs",
+              "RelativeToolTip": "BL\\Profiles\\AccountProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T09:32:04.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\AccountService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\Implementations\\AccountService.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\AccountService.cs",
+              "RelativeToolTip": "BL\\Services\\Implementations\\AccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:59:39.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\IAccountService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\Abstractions\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\IAccountService.cs",
+              "RelativeToolTip": "BL\\Services\\Abstractions\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T10:11:02.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdminGetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\AdminGetDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\AppUserDTOs\\AdminGetDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\AdminGetDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\AppUserDTOs\\AdminGetDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T18:01:03.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\AppUserDTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\LoginDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\AppUserDTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T09:28:38.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserPageEditDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\UserPageEditDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\AppUserDTOs\\UserPageEditDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\UserPageEditDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\AppUserDTOs\\UserPageEditDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T09:28:29.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserPageGetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\UserPageGetDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\AppUserDTOs\\UserPageGetDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\UserPageGetDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\AppUserDTOs\\UserPageGetDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T09:11:54.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "ApplyJobService.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\ApplyJobService.cs",
               "RelativeDocumentMoniker": "BL\\Services\\Implementations\\ApplyJobService.cs",
               "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\ApplyJobService.cs",
               "RelativeToolTip": "BL\\Services\\Implementations\\ApplyJobService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAADwv0AAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwD0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T10:21:05.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "PL\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T17:47:49.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PLService.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\PLService.cs",
+              "RelativeDocumentMoniker": "PL\\PLService.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\PLService.cs",
+              "RelativeToolTip": "PL\\PLService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:16:14.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Program.cs",
+              "RelativeDocumentMoniker": "PL\\Program.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Program.cs",
+              "RelativeToolTip": "PL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:27:05.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "PL\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\AccountController.cs",
               "RelativeToolTip": "PL\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T10:18:58.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 38,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\AppUser.cs",
+              "RelativeToolTip": "Core\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:40:12.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApplyJob.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\ApplyJob.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\ApplyJob.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\ApplyJob.cs",
+              "RelativeToolTip": "Core\\Models\\ApplyJob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T08:45:51.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DATAService.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\DATAService.cs",
+              "RelativeDocumentMoniker": "DATA\\DATAService.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\DATAService.cs",
+              "RelativeToolTip": "DATA\\DATAService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:23:10.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BLService.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\BLService.cs",
+              "RelativeDocumentMoniker": "BL\\BLService.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\BLService.cs",
+              "RelativeToolTip": "BL\\BLService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:07:12.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "BL",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\BL.csproj",
+              "RelativeDocumentMoniker": "BL\\BL.csproj",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\BL.csproj",
+              "RelativeToolTip": "BL\\BL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-23T17:05:51.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ApplyJobController.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\ApplyJobController.cs",
+              "RelativeDocumentMoniker": "PL\\Controllers\\ApplyJobController.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\ApplyJobController.cs",
+              "RelativeToolTip": "PL\\Controllers\\ApplyJobController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:26:59.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TestimonialController.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\TestimonialController.cs",
+              "RelativeDocumentMoniker": "PL\\Controllers\\TestimonialController.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\TestimonialController.cs",
+              "RelativeToolTip": "PL\\Controllers\\TestimonialController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:08:39.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PL\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T23:11:42.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Apply.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\ApplyJob\\Apply.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\ApplyJob\\Apply.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\ApplyJob\\Apply.cshtml",
+              "RelativeToolTip": "PL\\Views\\ApplyJob\\Apply.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T14:00:15.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateApplyJobDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\ApplyJobDTOs\\CreateApplyJobDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\ApplyJobDTOs\\CreateApplyJobDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\ApplyJobDTOs\\CreateApplyJobDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\ApplyJobDTOs\\CreateApplyJobDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T09:03:10.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GetApplyJobDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\ApplyJobDTOs\\GetApplyJobDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\ApplyJobDTOs\\GetApplyJobDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\ApplyJobDTOs\\GetApplyJobDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\ApplyJobDTOs\\GetApplyJobDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:12:33.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "PL\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T08:17:15.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ApplyJobConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Configurations\\ApplyJobConfiguration.cs",
+              "RelativeDocumentMoniker": "DATA\\Configurations\\ApplyJobConfiguration.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Configurations\\ApplyJobConfiguration.cs",
+              "RelativeToolTip": "DATA\\Configurations\\ApplyJobConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T08:47:36.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ApplyJobProfile.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\ApplyJobProfile.cs",
+              "RelativeDocumentMoniker": "BL\\Profiles\\ApplyJobProfile.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\ApplyJobProfile.cs",
+              "RelativeToolTip": "BL\\Profiles\\ApplyJobProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T10:10:16.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "PL\\Controllers\\CategoryController.cs",
@@ -559,33 +1118,138 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 52,
               "Title": "IApplyJobService.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\IApplyJobService.cs",
               "RelativeDocumentMoniker": "BL\\Services\\Abstractions\\IApplyJobService.cs",
               "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\IApplyJobService.cs",
               "RelativeToolTip": "BL\\Services\\Abstractions\\IApplyJobService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T11:16:41.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PLConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\PLConfigurations.cs",
-              "RelativeDocumentMoniker": "PL\\PLConfigurations.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\PLConfigurations.cs",
-              "RelativeToolTip": "PL\\PLConfigurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 53,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\Job.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Job.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\Job.cs",
+              "RelativeToolTip": "Core\\Models\\Job.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T11:30:55.428Z",
+              "WhenOpened": "2025-02-22T21:25:51.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 54,
+              "Title": "JobDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\JobDetailsController.cs",
+              "RelativeDocumentMoniker": "PL\\Controllers\\JobDetailsController.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\JobDetailsController.cs",
+              "RelativeToolTip": "PL\\Controllers\\JobDetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T23:30:35.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "SliderItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Configurations\\SliderItemConfiguration.cs",
+              "RelativeDocumentMoniker": "DATA\\Configurations\\SliderItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Configurations\\SliderItemConfiguration.cs",
+              "RelativeToolTip": "DATA\\Configurations\\SliderItemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T01:02:39.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20250223131751_addedApplyAndJobOneToMany.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250223131751_addedApplyAndJobOneToMany.cs",
+              "RelativeDocumentMoniker": "DATA\\Migrations\\20250223131751_addedApplyAndJobOneToMany.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250223131751_addedApplyAndJobOneToMany.cs",
+              "RelativeToolTip": "DATA\\Migrations\\20250223131751_addedApplyAndJobOneToMany.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:17:51.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CreateJobDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\CreateJobDTO.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\JobDTOs\\CreateJobDTO.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\CreateJobDTO.cs",
+              "RelativeToolTip": "BL\\DTOs\\JobDTOs\\CreateJobDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T21:35:03.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DATA\\Contexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "DATA\\Contexts\\AppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:34:17.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20250223122623_applyJob.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250223122623_applyJob.cs",
+              "RelativeDocumentMoniker": "DATA\\Migrations\\20250223122623_applyJob.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250223122623_applyJob.cs",
+              "RelativeToolTip": "DATA\\Migrations\\20250223122623_applyJob.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:26:24.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Utilities\\FileManager.cs",
+              "RelativeDocumentMoniker": "BL\\Utilities\\FileManager.cs",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Utilities\\FileManager.cs",
+              "RelativeToolTip": "BL\\Utilities\\FileManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA5wC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T21:32:40.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\appsettings.json",
+              "RelativeDocumentMoniker": "PL\\appsettings.json",
+              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\appsettings.json",
+              "RelativeToolTip": "PL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-22T19:55:57.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\CategoryService.cs",
               "RelativeDocumentMoniker": "BL\\Services\\Implementations\\CategoryService.cs",
@@ -593,12 +1257,11 @@
               "RelativeToolTip": "BL\\Services\\Implementations\\CategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T08:59:40.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T08:59:40.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 63,
               "Title": "AboutController.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\AboutController.cs",
               "RelativeDocumentMoniker": "PL\\Controllers\\AboutController.cs",
@@ -610,7 +1273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 64,
               "Title": "Error404Controller.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\Error404Controller.cs",
               "RelativeDocumentMoniker": "PL\\Controllers\\Error404Controller.cs",
@@ -622,19 +1285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "PL\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "PL\\Controllers\\ContactController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T10:44:49.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 65,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PL\\Controllers\\HomeController.cs",
@@ -646,7 +1297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 66,
               "Title": "JobListController.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\JobListController.cs",
               "RelativeDocumentMoniker": "PL\\Controllers\\JobListController.cs",
@@ -658,91 +1309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\IAccountService.cs",
-              "RelativeDocumentMoniker": "BL\\Services\\Abstractions\\IAccountService.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\IAccountService.cs",
-              "RelativeToolTip": "BL\\Services\\Abstractions\\IAccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T10:11:02.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ApplyJobConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Configurations\\ApplyJobConfiguration.cs",
-              "RelativeDocumentMoniker": "DATA\\Configurations\\ApplyJobConfiguration.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Configurations\\ApplyJobConfiguration.cs",
-              "RelativeToolTip": "DATA\\Configurations\\ApplyJobConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T08:47:36.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ApplyJob.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\ApplyJob.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\ApplyJob.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\ApplyJob.cs",
-              "RelativeToolTip": "Core\\Models\\ApplyJob.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T08:45:51.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\AppUser.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\AppUser.cs",
-              "RelativeToolTip": "Core\\Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T08:40:12.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Contexts\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DATA\\Contexts\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Contexts\\AppDbContext.cs",
-              "RelativeToolTip": "DATA\\Contexts\\AppDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T12:34:17.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Job.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\Job.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\Job.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\Job.cs",
-              "RelativeToolTip": "Core\\Models\\Job.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T21:25:51.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CommentService.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\CommentService.cs",
-              "RelativeDocumentMoniker": "BL\\Services\\Implementations\\CommentService.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\CommentService.cs",
-              "RelativeToolTip": "BL\\Services\\Implementations\\CommentService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwDsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T08:30:00.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 69,
               "Title": "CategoryConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Configurations\\CategoryConfiguration.cs",
               "RelativeDocumentMoniker": "DATA\\Configurations\\CategoryConfiguration.cs",
@@ -754,7 +1321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 67,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Comment.cs",
@@ -766,7 +1333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 70,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Category.cs",
@@ -778,19 +1345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PL\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T21:59:00.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 68,
               "Title": "JobConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Configurations\\JobConfiguration.cs",
               "RelativeDocumentMoniker": "DATA\\Configurations\\JobConfiguration.cs",
@@ -802,19 +1357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "SliderItemConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Configurations\\SliderItemConfiguration.cs",
-              "RelativeDocumentMoniker": "DATA\\Configurations\\SliderItemConfiguration.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Configurations\\SliderItemConfiguration.cs",
-              "RelativeToolTip": "DATA\\Configurations\\SliderItemConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T01:02:39.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 102,
               "Title": "20250223011257_DeletedAllNullableProperty.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250223011257_DeletedAllNullableProperty.cs",
               "RelativeDocumentMoniker": "DATA\\Migrations\\20250223011257_DeletedAllNullableProperty.cs",
@@ -826,7 +1369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 71,
               "Title": "SliderItem.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\SliderItem.cs",
               "RelativeDocumentMoniker": "Core\\Models\\SliderItem.cs",
@@ -838,7 +1381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 72,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Models\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Base\\BaseEntity.cs",
@@ -850,7 +1393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 73,
               "Title": "CreateSliderItemDTO.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\SliderItemDTOs\\CreateSliderItemDTO.cs",
               "RelativeDocumentMoniker": "BL\\DTOs\\SliderItemDTOs\\CreateSliderItemDTO.cs",
@@ -862,7 +1405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 76,
               "Title": "ChangePasswordDTO.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\ChangePasswordDTO.cs",
               "RelativeDocumentMoniker": "BL\\DTOs\\AppUserDTOs\\ChangePasswordDTO.cs",
@@ -874,7 +1417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 75,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "BL\\DTOs\\AppUserDTOs\\RegisterDTO.cs",
@@ -886,43 +1429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UserPageEditDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\UserPageEditDTO.cs",
-              "RelativeDocumentMoniker": "BL\\DTOs\\AppUserDTOs\\UserPageEditDTO.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\UserPageEditDTO.cs",
-              "RelativeToolTip": "BL\\DTOs\\AppUserDTOs\\UserPageEditDTO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:28:29.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "UserPageGetDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\UserPageGetDTO.cs",
-              "RelativeDocumentMoniker": "BL\\DTOs\\AppUserDTOs\\UserPageGetDTO.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\UserPageGetDTO.cs",
-              "RelativeToolTip": "BL\\DTOs\\AppUserDTOs\\UserPageGetDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:11:54.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "GetSliderItemDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\SliderItemDTOs\\GetSliderItemDTO.cs",
-              "RelativeDocumentMoniker": "BL\\DTOs\\SliderItemDTOs\\GetSliderItemDTO.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\SliderItemDTOs\\GetSliderItemDTO.cs",
-              "RelativeToolTip": "BL\\DTOs\\SliderItemDTOs\\GetSliderItemDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T00:45:29.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 74,
               "Title": "UpdateSliderItemDTO.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\SliderItemDTOs\\UpdateSliderItemDTO.cs",
               "RelativeDocumentMoniker": "BL\\DTOs\\SliderItemDTOs\\UpdateSliderItemDTO.cs",
@@ -934,19 +1441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "BL\\DTOs\\AppUserDTOs\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\AppUserDTOs\\LoginDTO.cs",
-              "RelativeToolTip": "BL\\DTOs\\AppUserDTOs\\LoginDTO.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:28:38.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 77,
               "Title": "UpdateJobDTO.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\UpdateJobDTO.cs",
               "RelativeDocumentMoniker": "BL\\DTOs\\JobDTOs\\UpdateJobDTO.cs",
@@ -958,31 +1453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "CreateJobDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\CreateJobDTO.cs",
-              "RelativeDocumentMoniker": "BL\\DTOs\\JobDTOs\\CreateJobDTO.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\CreateJobDTO.cs",
-              "RelativeToolTip": "BL\\DTOs\\JobDTOs\\CreateJobDTO.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAuwEcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T21:35:03.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "JobListDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\JobListDTO.cs",
-              "RelativeDocumentMoniker": "BL\\DTOs\\JobDTOs\\JobListDTO.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\JobListDTO.cs",
-              "RelativeToolTip": "BL\\DTOs\\JobDTOs\\JobListDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T00:43:28.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 78,
               "Title": "CreateCommentDTO.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CommentDTOs\\CreateCommentDTO.cs",
               "RelativeDocumentMoniker": "BL\\DTOs\\CommentDTOs\\CreateCommentDTO.cs",
@@ -994,43 +1465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "JobDetailDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\JobDetailDTO.cs",
-              "RelativeDocumentMoniker": "BL\\DTOs\\JobDTOs\\JobDetailDTO.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\JobDetailDTO.cs",
-              "RelativeToolTip": "BL\\DTOs\\JobDTOs\\JobDetailDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T00:41:22.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "GetCommentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CommentDTOs\\GetCommentDTO.cs",
-              "RelativeDocumentMoniker": "BL\\DTOs\\CommentDTOs\\GetCommentDTO.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CommentDTOs\\GetCommentDTO.cs",
-              "RelativeToolTip": "BL\\DTOs\\CommentDTOs\\GetCommentDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T08:58:32.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "AdminGetCommentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CommentDTOs\\AdminGetCommentDTO.cs",
-              "RelativeDocumentMoniker": "BL\\DTOs\\CommentDTOs\\AdminGetCommentDTO.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CommentDTOs\\AdminGetCommentDTO.cs",
-              "RelativeToolTip": "BL\\DTOs\\CommentDTOs\\AdminGetCommentDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T08:58:29.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 79,
               "Title": "CreateCategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CategoryDTOs\\CreateCategoryDTO.cs",
               "RelativeDocumentMoniker": "BL\\DTOs\\CategoryDTOs\\CreateCategoryDTO.cs",
@@ -1042,7 +1477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 80,
               "Title": "UpdateCategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CategoryDTOs\\UpdateCategoryDTO.cs",
               "RelativeDocumentMoniker": "BL\\DTOs\\CategoryDTOs\\UpdateCategoryDTO.cs",
@@ -1054,19 +1489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "HomeGetCategoryDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CategoryDTOs\\HomeGetCategoryDTO.cs",
-              "RelativeDocumentMoniker": "BL\\DTOs\\CategoryDTOs\\HomeGetCategoryDTO.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CategoryDTOs\\HomeGetCategoryDTO.cs",
-              "RelativeToolTip": "BL\\DTOs\\CategoryDTOs\\HomeGetCategoryDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T00:34:02.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 81,
               "Title": "AdminGetCategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\CategoryDTOs\\AdminGetCategoryDTO.cs",
               "RelativeDocumentMoniker": "BL\\DTOs\\CategoryDTOs\\AdminGetCategoryDTO.cs",
@@ -1078,7 +1501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 82,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Repositories\\Abstractions\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "DATA\\Repositories\\Abstractions\\ICategoryRepository.cs",
@@ -1090,79 +1513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "AccountProfile.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\AccountProfile.cs",
-              "RelativeDocumentMoniker": "BL\\Profiles\\AccountProfile.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\AccountProfile.cs",
-              "RelativeToolTip": "BL\\Profiles\\AccountProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:32:04.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Testimonial\\Index.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\Testimonial\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Testimonial\\Index.cshtml",
-              "RelativeToolTip": "PL\\Views\\Testimonial\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwCsAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T08:03:05.48Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "_JobItemPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\JobList\\_JobItemPartial.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\JobList\\_JobItemPartial.cshtml",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\JobList\\_JobItemPartial.cshtml",
-              "RelativeToolTip": "PL\\Views\\JobList\\_JobItemPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T23:00:12.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "JobWithCategory.cshtml",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Category\\JobWithCategory.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\Category\\JobWithCategory.cshtml",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Category\\JobWithCategory.cshtml",
-              "RelativeToolTip": "PL\\Views\\Category\\JobWithCategory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T23:33:10.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "PL\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T23:33:24.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PL\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T23:11:42.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 83,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "PL\\Views\\_ViewStart.cshtml",
@@ -1174,19 +1525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\JobList\\Index.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\JobList\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Views\\JobList\\Index.cshtml",
-              "RelativeToolTip": "PL\\Views\\JobList\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T22:03:20.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 84,
               "Title": "AdminGetJobDTO.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\DTOs\\JobDTOs\\AdminGetJobDTO.cs",
               "RelativeDocumentMoniker": "BL\\DTOs\\JobDTOs\\AdminGetJobDTO.cs",
@@ -1198,7 +1537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 89,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\Job\\Update.cshtml",
               "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Job\\Update.cshtml",
@@ -1210,7 +1549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 88,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\Job\\Index.cshtml",
               "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Job\\Index.cshtml",
@@ -1222,7 +1561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 85,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\Job\\Details.cshtml",
               "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Job\\Details.cshtml",
@@ -1234,7 +1573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 87,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\Job\\Create.cshtml",
               "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Job\\Create.cshtml",
@@ -1246,43 +1585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "JobService.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\JobService.cs",
-              "RelativeDocumentMoniker": "BL\\Services\\Implementations\\JobService.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\JobService.cs",
-              "RelativeToolTip": "BL\\Services\\Implementations\\JobService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T10:11:23.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T20:56:21.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAIBJwB4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T20:35:39.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 86,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
@@ -1294,7 +1597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 90,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "DATA\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -1306,7 +1609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 99,
               "Title": "20250222202353_changeAdminProfilePhoto.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250222202353_changeAdminProfilePhoto.cs",
               "RelativeDocumentMoniker": "DATA\\Migrations\\20250222202353_changeAdminProfilePhoto.cs",
@@ -1318,7 +1621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 100,
               "Title": "20250222202025_ChangeAdminInfo2.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250222202025_ChangeAdminInfo2.cs",
               "RelativeDocumentMoniker": "DATA\\Migrations\\20250222202025_ChangeAdminInfo2.cs",
@@ -1330,7 +1633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 101,
               "Title": "20250222201513_ChangeAdminInfo.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250222201513_ChangeAdminInfo.cs",
               "RelativeDocumentMoniker": "DATA\\Migrations\\20250222201513_ChangeAdminInfo.cs",
@@ -1342,7 +1645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 91,
               "Title": "20250222054937_addedCommentAndAppUserOneToMany.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250222054937_addedCommentAndAppUserOneToMany.cs",
               "RelativeDocumentMoniker": "DATA\\Migrations\\20250222054937_addedCommentAndAppUserOneToMany.cs",
@@ -1354,7 +1657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 92,
               "Title": "20250222201036_changeAdminInfo.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\Migrations\\20250222201036_changeAdminInfo.cs",
               "RelativeDocumentMoniker": "DATA\\Migrations\\20250222201036_changeAdminInfo.cs",
@@ -1365,7 +1668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 93,
               "Title": "DATA.csproj",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\DATA\\DATA.csproj",
               "RelativeDocumentMoniker": "DATA\\DATA.csproj",
@@ -1373,59 +1676,12 @@
               "RelativeToolTip": "DATA\\DATA.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-22T12:34:15.212Z"
+              "WhenOpened": "2025-02-22T12:34:15.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\AccountService.cs",
-              "RelativeDocumentMoniker": "BL\\Services\\Implementations\\AccountService.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Implementations\\AccountService.cs",
-              "RelativeToolTip": "BL\\Services\\Implementations\\AccountService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAzwGIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T08:59:39.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "TestimonialController.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\TestimonialController.cs",
-              "RelativeDocumentMoniker": "PL\\Controllers\\TestimonialController.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\PL\\Controllers\\TestimonialController.cs",
-              "RelativeToolTip": "PL\\Controllers\\TestimonialController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAUwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T08:08:39.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "ICommentService.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\ICommentService.cs",
-              "RelativeDocumentMoniker": "BL\\Services\\Abstractions\\ICommentService.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\ICommentService.cs",
-              "RelativeToolTip": "BL\\Services\\Abstractions\\ICommentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T10:11:04.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
-              "Title": "CommentProfile.cs",
-              "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\CommentProfile.cs",
-              "RelativeDocumentMoniker": "BL\\Profiles\\CommentProfile.cs",
-              "ToolTip": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\CommentProfile.cs",
-              "RelativeToolTip": "BL\\Profiles\\CommentProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:19:05.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 94,
               "Title": "CategoryProfile.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Profiles\\CategoryProfile.cs",
               "RelativeDocumentMoniker": "BL\\Profiles\\CategoryProfile.cs",
@@ -1437,7 +1693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 95,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\ICategoryService.cs",
               "RelativeDocumentMoniker": "BL\\Services\\Abstractions\\ICategoryService.cs",
@@ -1449,7 +1705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 96,
               "Title": "IJobService.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\IJobService.cs",
               "RelativeDocumentMoniker": "BL\\Services\\Abstractions\\IJobService.cs",
@@ -1461,7 +1717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 97,
               "Title": "ISliderItemService.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\BL\\Services\\Abstractions\\ISliderItemService.cs",
               "RelativeDocumentMoniker": "BL\\Services\\Abstractions\\ISliderItemService.cs",
@@ -1473,7 +1729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 98,
               "Title": "JobNature.cs",
               "DocumentMoniker": "C:\\Users\\fizar\\OneDrive\\\u0130\u015F masas\u0131\\Jobs\\Core\\Enums\\JobNature.cs",
               "RelativeDocumentMoniker": "Core\\Enums\\JobNature.cs",

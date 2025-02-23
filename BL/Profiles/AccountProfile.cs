@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using BL.DTOs.AppUserDTOs;
 using CORE.Models;
+using DATA.Migrations;
 
 namespace BL.Profiles
 {
@@ -13,6 +14,7 @@ namespace BL.Profiles
             CreateMap<UserPageGetDTO ,AppUser>().ReverseMap();
             CreateMap<UserPageEditDTO ,AppUser>().ReverseMap();
             CreateMap<ChangePasswordDTO ,AppUser>().ReverseMap();
+            CreateMap<AdminGetDTO ,AppUser>().ReverseMap();
         }
     }
 }

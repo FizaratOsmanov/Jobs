@@ -48,7 +48,7 @@ namespace PL.Controllers
                 var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
                 if (userId == null)
                 {
-                    return Unauthorized(new { success = false, message = "User is not logged in." });
+                    return Unauthorized(new { success = false, message = "User is not logged in. You must LOGIN first" });
                 }
                 await _commentService.CreateCommentAsync(dto, userId);
                 return RedirectToAction("Index");

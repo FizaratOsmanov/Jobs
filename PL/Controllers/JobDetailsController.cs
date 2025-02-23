@@ -40,23 +40,5 @@ namespace PL.Controllers
                 return BadRequest("Something went wrong!");
             }
         }
-
-        public IActionResult Apply() { return View(); }
-
-        [HttpPost]
-        public async Task<IActionResult> Apply(CreateApplyJobDTO applyJobDTO)
-        {
-            if (!ModelState.IsValid)
-                return View(applyJobDTO);
-
-            string cvFilename = await applyJobDTO.CV.SaveAsync("CVs");
-
-            var applyJob = _mapper.Map<ApplyJob>(applyJobDTO);
-
-            await _applyJobService.SendEmailAsync(applyJob, cvFilename);
-
-            TempData["SuccessMessage"] = "Application submitted successfully.";
-            return RedirectToAction("Apply");
-        }
     }
 }

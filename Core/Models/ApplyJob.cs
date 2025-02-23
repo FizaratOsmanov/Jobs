@@ -14,5 +14,7 @@ namespace CORE.Models
         public string Portfolio { get; set; }
         public string CV { get; set; }
         public string CoverLetter { get; set; }
+        public int JobId {  get; set; }
+        public Job Job { get; set; }
     }
 }

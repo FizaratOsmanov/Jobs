@@ -25,14 +25,11 @@
 </head>
 <body>
     <div class="container-xxl bg-white p-0">
-        <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
         </div>
-        <!-- Spinner End -->
-        <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
             <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
                 <h1 class="m-0 text-primary">JobEntry</h1>
@@ -47,7 +44,6 @@
                     <a asp-controller="JobList" asp-action="Index" class="nav-item nav-link">Job</a>
                     <a asp-controller="Category" asp-action="Index" class="nav-item nav-link">Category</a>
                     <a asp-controller="Testimonial" asp-action="Index" class="nav-item nav-link">Testimonial</a>
-                    <a asp-controller="Contact" asp-action="Index" class="nav-item nav-link">Contact</a>
                     <a asp-controller="Account" asp-action="Index" class="nav-item nav-link "
                        style="width: 45px; height: 45px;  font-size: 18px; ">
                         👤
@@ -56,9 +52,7 @@
                 <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Post A Job<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </nav>
-        <!-- Navbar End -->
         @RenderBody()
-        <!-- Footer Start -->
         <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
@@ -75,8 +69,6 @@
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
-        <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
     <!-- JavaScript Libraries -->

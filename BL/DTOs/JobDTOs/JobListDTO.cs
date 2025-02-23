@@ -13,7 +13,8 @@ namespace BL.DTOs.JobDTOs
         public decimal MinSalary { get; set; }
         public decimal MaxSalary { get; set; }
         public DateTime DateLine { get; set; }
-
         public Category Category { get; set; }
+        public bool IsDeleted { get; set; }
+
     }
 }

@@ -5,13 +5,16 @@
 		<div class="row g-4">
 			@foreach (HomeGetCategoryDTO item in Model)
 			{
-				<div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-					<a class="cat-item rounded p-4" href="">
+				@if (item.IsDeleted == false)
+				{
+					<div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+						<a class="cat-item rounded p-4" href="">
 						<i class="fa fa-3x fa-tasks text-primary mb-4"></i>
 						<h6 class="mb-3">@item.Title</h6>
 						<p class="mb-0">@item.VacancyCount vacancy</p>
 					</a>
 				</div>
+				}
 			}
 		</div>
 	</div>

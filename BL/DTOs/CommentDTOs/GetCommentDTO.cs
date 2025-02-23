@@ -7,5 +7,7 @@
         public string PhotoPath { get; set; }
         public string FirstName { get; set; }
         public string Profession { get; set; }
+        public bool IsDeleted { get; set; }
+
     }
 }

@@ -11,6 +11,7 @@ namespace BL.DTOs.ApplyJobDTOs
         public string Portfolio { get; set; }
         public IFormFile CV { get; set; }
         public string CoverLetter { get; set; }
+        public int JobId { get; set; }
     }
 
     public class CreateApplyJobDTOValidaton : AbstractValidator<CreateApplyJobDTO>

@@ -32,7 +32,7 @@ public class CommentService : ICommentService
     }
     public async Task<ICollection<AdminGetCommentDTO>> GetAllCommentForAdminAsync()
     {
-        ICollection<Comment> comment = await _commentRepository.GetAllAsync("AppUser");
+        ICollection<Comment> comment = await _commentRepository.GetAllAsync();
         if (comment == null) throw new BaseException("Comment not found");
         ICollection<AdminGetCommentDTO> dto = _mapper.Map<ICollection<AdminGetCommentDTO>>(comment);
         return dto;

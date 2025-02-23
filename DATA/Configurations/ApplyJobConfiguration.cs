@@ -31,6 +31,11 @@ namespace DATA.Configurations
             builder.Property(a => a.CoverLetter)
                 .HasColumnType("text")
                 .IsRequired();
+
+            builder.HasOne(a => a.Job)
+                   .WithMany(j => j.ApplyJobs)
+                   .HasForeignKey(a => a.JobId)
+                   .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

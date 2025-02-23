@@ -6,6 +6,7 @@ using BL.Utilities;
 using CORE.Enums;
 using CORE.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 namespace BL.Services.Implementations
 {
     public class AccountService:IAccountService
@@ -94,5 +95,12 @@ namespace BL.Services.Implementations
                 throw new BaseException("Profile update failed ");
             }
         }
+
+        public async Task<ICollection<AdminGetDTO>> GetAllUsersAsync()
+        {
+            var users = await _userManager.Users.ToListAsync();
+            return _mapper.Map<ICollection<AdminGetDTO>>(users);
+        }
+
     }
 }

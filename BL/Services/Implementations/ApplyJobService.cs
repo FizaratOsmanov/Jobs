@@ -2,9 +2,11 @@
 using System.Net.Mail;
 using AutoMapper;
 using BL.DTOs.ApplyJobDTOs;
+using BL.Exceptions;
 using BL.Services.Abstractions;
 using CORE.Models;
 using DATA.Contexts;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 namespace BL.Services.Implementations
@@ -56,9 +58,39 @@ namespace BL.Services.Implementations
                             mailMessage.Attachments.Add(new Attachment(filePath));
                         }
                     }
+                    var jobExists = await _context.Jobs.AnyAsync(j => j.Id == applyJob.JobId);
+                    if (!jobExists)
+                    {
+                        throw new Exception($"JobId {applyJob.JobId} does not exist in Jobs table.");
+                    }
 
                     await smtpClient.SendMailAsync(mailMessage);
+                    _context.ApplyJobs.Add(applyJob);
+                    await _context.SaveChangesAsync();
                 }
+            }
+        }
+
+
+        public async Task<ICollection<GetApplyJobDTO>> GetApplicationsByJobIdAsync(int jobId)
+        {
+            var applications = await _context.ApplyJobs
+                .Where(a => a.JobId == jobId)
+                .ToListAsync();
+
+            return _mapper.Map<ICollection<GetApplyJobDTO>>(applications);
+        }
+
+        public async Task DeleteApplicationsByJobIdAsync(int jobId)
+        {
+            var applications = await _context.ApplyJobs
+                .Where(a => a.JobId == jobId)
+                .ToListAsync();
+
+            if (applications.Any())
+            {
+                _context.ApplyJobs.RemoveRange(applications);
+                await _context.SaveChangesAsync();
             }
         }
     }

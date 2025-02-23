@@ -14,14 +14,17 @@
         <div id="commentList">
             @foreach (var item in Model.OrderBy(c => c.FirstName))  
             {
-                <div class="testimonial-item bg-light rounded p-3 mb-3 d-flex align-items-center" style="max-width: 100%; min-height: 80px;">
-                    <img class="img-fluid rounded-circle me-3" src="Uploads/UserProfiles/@item.PhotoPath" style="width: 60px; height: 60px;">
+                @if (item.IsDeleted == false)
+                {
+                    <div class="testimonial-item bg-light rounded p-3 mb-3 d-flex align-items-center" style="max-width: 100%; min-height: 80px;">
+                        <img class="img-fluid rounded-circle me-3" src="Uploads/UserProfiles/@item.PhotoPath" style="width: 60px; height: 60px;">
                     <div class="me-3">
                         <h5 class="mb-1">@item.FirstName</h5>
                         <small class="text-muted">@item.Profession</small>
                     </div>
                     <p class="mb-0 flex-grow-1">@item.Message</p>
                 </div>
+                }
             }
         </div>
     </div>

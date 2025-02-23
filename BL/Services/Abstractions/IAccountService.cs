@@ -9,4 +9,5 @@ public interface IAccountService
     Task<UserPageGetDTO> GetCurrentUserAsync(string userId);
     Task ChangePasswordAsync(string userId, ChangePasswordDTO dto);
     Task EditAsync(UserPageEditDTO dto);
+    Task<ICollection<AdminGetDTO>> GetAllUsersAsync();
 }

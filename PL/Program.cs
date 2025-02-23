@@ -1,33 +1,16 @@
-using System.Reflection;
-using BL.DTOs.AppUserDTOs;
-using BL.Profiles;
-using BL.Services.Abstractions;
-using BL.Services.Implementations;
+using BL;
 using CORE.Models;
+using DATA;
 using DATA.Contexts;
-using DATA.Repositories.Abstractions;
-using DATA.Repositories.Implementations;
-using FluentValidation;
-using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using PL;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddControllersWithViews();
-builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
-builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddScoped<ISliderItemService,SliderItemService>();
-builder.Services.AddScoped<ISliderItemRepository,SliderItemRepository>();
-builder.Services.AddScoped<ICategoryService,CategoryService>();
-builder.Services.AddScoped<ICategoryRepository,CategoryRepository>();
-builder.Services.AddScoped<IJobRepository,JobRepository>();
-builder.Services.AddScoped<IJobService,JobService>();
-builder.Services.AddScoped<ICommentRepository,CommentRepository>();
-builder.Services.AddScoped<ICommentService,CommentService>();
-builder.Services.AddScoped<IAccountService, AccountService>();
-builder.Services.AddScoped<IApplyJobService,ApplyJobService>();
-builder.Services.AddAutoMapper(typeof(SliderItemProfile));
-builder.Services.AddAutoMapper(typeof(AccountProfile));
+
+builder.Services.AddBLService();
+builder.Services.AddDATAService();
+builder.Services.AddPLService();
 builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 {
     options.Password.RequiredLength = 4;
@@ -40,11 +23,6 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 })
     .AddDefaultTokenProviders()
     .AddEntityFrameworkStores<AppDbContext>();
-builder.Services.ConfigureApplicationCookie(opt =>
-{
-    opt.LoginPath = "/Admin/Account/Login";
-    opt.AccessDeniedPath = "/";
-});
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MsSql"));

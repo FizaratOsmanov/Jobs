@@ -17,6 +17,8 @@ namespace BL.DTOs.JobDTOs
         public DateTime DateLine { get; set; }
         public string CompanyDetail { get; set; }
         public int VacancyCount { get; set; }
+        public bool IsDeleted { get; set; }
+
         public int CategoryId { get; set; }       
         public DateTime CreatedDate { get; set; }
     }

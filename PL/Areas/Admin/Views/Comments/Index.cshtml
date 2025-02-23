@@ -1,0 +1,41 @@
+﻿@model ICollection<AdminGetCommentDTO>
+
+@{
+    ViewData["Title"] = "Comments";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-primary mb-4">Comments</h2>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-striped shadow-sm rounded">
+            <thead class="bg-dark text-white">
+                <tr>
+                    <th class="text-center">Message</th>
+                    <th class="text-center">IsDeleted</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (AdminGetCommentDTO item in Model)
+                {
+                    <tr>
+                        <td class="align-middle text-center">@item.Message</td>
+                        <td class="align-middle text-center">@item.IsDeleted</td>
+
+                        <td class="align-middle text-center">
+                            <form asp-action="SoftDelete" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn btn-sm btn-warning">SoftDelete</button>
+                            </form>
+                            <form asp-action="HardDelete" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn btn-sm btn-danger">HardDelete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

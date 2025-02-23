@@ -1,94 +1,120 @@
 ﻿using AutoMapper;
 using BL.DTOs.JobDTOs;
+using BL.DTOs.ApplyJobDTOs;
 using BL.Exceptions;
 using BL.Services.Abstractions;
 using BL.Utilities;
 using CORE.Models;
 using DATA.Repositories.Abstractions;
-namespace BL.Services.Implementations;
+using System.IO;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
-public class JobService : IJobService
+namespace BL.Services.Implementations
 {
-    readonly IJobRepository _jobRepository;
-    readonly ICategoryRepository _categoryRepository;
-    readonly IMapper _mapper;
-    public JobService(IJobRepository jobRepository,ICategoryRepository categoryRepository,IMapper mapper)
+    public class JobService : IJobService
     {
-        _categoryRepository=categoryRepository;
-        _jobRepository = jobRepository;
-        _mapper = mapper;
-    }
-    public async Task CreateJobAsync(CreateJobDTO dto)
-    {
-        if (await _categoryRepository.GetByIdAsync(dto.CategoryId) is null) throw new BaseException("Category not found!");
+        private readonly IJobRepository _jobRepository;
+        private readonly ICategoryRepository _categoryRepository;
+        private readonly IApplyJobService _applyJobService;
+        private readonly IMapper _mapper;
 
-        Job job = _mapper.Map<Job>(dto);
-
-        job.CompanyIconPath = await dto.CompanyIcon.SaveAsync("Jobs");
-
-        await _jobRepository.CreateAsync(job);
-        await _jobRepository.SaveChangesAsync();
-    }
-    public async Task<Job> GetJobByIdAsync(int id)
-    {
-       Job? job= await _jobRepository.GetByIdAsync(id,"Category");
-        if (job == null) throw new BaseException("Job not found");
-        return job;
-    }
-    public async Task<ICollection<AdminGetJobDTO>> GetJobAdminItemsAsync()
-    {
-        ICollection<Job> jobs = await _jobRepository.GetAllAsync("Category");
-        ICollection<AdminGetJobDTO> dto=_mapper.Map<ICollection<AdminGetJobDTO>>(jobs);
-        return dto;
-    }
-    public async Task<UpdateJobDTO> GetJobByIdForUpdateAsync(int id)
-    {
-        Job? job=await  _jobRepository.GetByIdAsync(id);
-        if (job == null) throw new BaseException("Job not found");
-        UpdateJobDTO dto=_mapper.Map<UpdateJobDTO>(job);
-        return dto;
-    }
-    public async Task<ICollection<JobDetailDTO>> GetJobForDetailViewAsync()
-    {
-        ICollection<Job> jobs=await _jobRepository.GetAllAsync("Category");
-        ICollection<JobDetailDTO> dto=_mapper.Map<ICollection<JobDetailDTO>>(jobs);
-        return dto;
-    }
-    public async Task<ICollection<JobListDTO>> GetJobForListViewAsync()
-    {
-        ICollection<Job> jobs = await _jobRepository.GetAllAsync("Category");
-        ICollection<JobListDTO> dto = _mapper.Map<ICollection<JobListDTO>>(jobs);
-        return dto;
-    }
-    public async Task HardDeleteJobAsync(int id)
-    {
-        Job job=await GetJobByIdAsync(id);
-        _jobRepository.HardDelete(job);
-        if(job.CompanyIconPath != null ) File.Delete(Path.Combine(Path.GetFullPath("wwwroot"), "Uploads", "Jobs", job.CompanyIconPath));
-        await _jobRepository.SaveChangesAsync();
-    }
-    public async Task SoftDeleteJobAsync(int id)
-    {
-        Job job = await GetJobByIdAsync(id);
-        _jobRepository.SoftDelete(job);
-        if (job.CompanyIconPath != null) File.Delete(Path.Combine(Path.GetFullPath("wwwroot"), "Uploads", "Jobs", job.CompanyIconPath));
-        await _jobRepository.SaveChangesAsync();
-    }
-    public async Task UpdateJobAsync(UpdateJobDTO dto)
-    {
-        if (await _categoryRepository.GetByIdAsync(dto.CategoryId) is null) throw new BaseException("Category not found!");
-        Job? oldJob = await GetJobByIdAsync(dto.Id);
-        if (oldJob == null)
+        public JobService(IJobRepository jobRepository, ICategoryRepository categoryRepository, IApplyJobService applyJobService, IMapper mapper)
         {
-            throw new BaseException("Job not found!");
+            _jobRepository = jobRepository;
+            _categoryRepository = categoryRepository;
+            _applyJobService = applyJobService;
+            _mapper = mapper;
         }
-        Job newJob = _mapper.Map<Job>(dto);
-        newJob.CreatedDate = oldJob.CreatedDate;
-        newJob.CompanyIconPath = dto.CompanyIcon is not null ? await dto.CompanyIcon.SaveAsync("Jobs") : oldJob.CompanyIconPath;
-        _jobRepository.Update(newJob);
-        if (dto.CompanyIcon is not null) File.Delete(Path.Combine(Path.GetFullPath("wwwroot"), "Uploads", "Jobs", oldJob.CompanyIconPath));
-        await _jobRepository.SaveChangesAsync();
 
+        public async Task CreateJobAsync(CreateJobDTO dto)
+        {
+            if (await _categoryRepository.GetByIdAsync(dto.CategoryId) is null) throw new BaseException("Category not found!");
+
+            Job job = _mapper.Map<Job>(dto);
+            job.CompanyIconPath = await dto.CompanyIcon.SaveAsync("Jobs");
+
+            await _jobRepository.CreateAsync(job);
+            await _jobRepository.SaveChangesAsync();
+        }
+
+        public async Task<Job> GetJobByIdAsync(int id)
+        {
+            Job? job = await _jobRepository.GetByIdAsync(id, "Category", "ApplyJobs");
+            if (job == null) throw new BaseException("Job not found");
+            return job;
+        }
+
+        public async Task<ICollection<AdminGetJobDTO>> GetJobAdminItemsAsync()
+        {
+            ICollection<Job> jobs = await _jobRepository.GetAllAsync("Category", "ApplyJobs");
+            return _mapper.Map<ICollection<AdminGetJobDTO>>(jobs);
+        }
+
+        public async Task<UpdateJobDTO> GetJobByIdForUpdateAsync(int id)
+        {
+            Job? job = await _jobRepository.GetByIdAsync(id);
+            if (job == null) throw new BaseException("Job not found");
+            return _mapper.Map<UpdateJobDTO>(job);
+        }
+
+        public async Task<ICollection<JobDetailDTO>> GetJobForDetailViewAsync()
+        {
+            ICollection<Job> jobs = await _jobRepository.GetAllAsync("Category", "ApplyJobs");
+            return _mapper.Map<ICollection<JobDetailDTO>>(jobs);
+        }
+
+        public async Task<ICollection<JobListDTO>> GetJobForListViewAsync()
+        {
+            ICollection<Job> jobs = await _jobRepository.GetAllAsync("Category", "ApplyJobs");
+            return _mapper.Map<ICollection<JobListDTO>>(jobs);
+        }
+
+        public async Task HardDeleteJobAsync(int id)
+        {
+            Job job = await GetJobByIdAsync(id);
+            _jobRepository.HardDelete(job);
+            if (!string.IsNullOrEmpty(job.CompanyIconPath))
+            {
+                File.Delete(Path.Combine("wwwroot", "Uploads", "Jobs", job.CompanyIconPath));
+            }
+            await _jobRepository.SaveChangesAsync();
+        }
+
+        public async Task SoftDeleteJobAsync(int id)
+        {
+            Job job = await GetJobByIdAsync(id);
+            _jobRepository.SoftDelete(job);
+            if (!string.IsNullOrEmpty(job.CompanyIconPath))
+            {
+                File.Delete(Path.Combine("wwwroot", "Uploads", "Jobs", job.CompanyIconPath));
+            }
+            await _jobRepository.SaveChangesAsync();
+        }
+
+        public async Task UpdateJobAsync(UpdateJobDTO dto)
+        {
+            if (await _categoryRepository.GetByIdAsync(dto.CategoryId) is null) throw new BaseException("Category not found!");
+
+            Job? oldJob = await GetJobByIdAsync(dto.Id);
+            if (oldJob == null) throw new BaseException("Job not found!");
+
+            Job newJob = _mapper.Map<Job>(dto);
+            newJob.CreatedDate = oldJob.CreatedDate;
+            newJob.CompanyIconPath = dto.CompanyIcon is not null ? await dto.CompanyIcon.SaveAsync("Jobs") : oldJob.CompanyIconPath;
+
+            _jobRepository.Update(newJob);
+            if (dto.CompanyIcon is not null)
+            {
+                File.Delete(Path.Combine("wwwroot", "Uploads", "Jobs", oldJob.CompanyIconPath));
+            }
+            await _jobRepository.SaveChangesAsync();
+        }
+
+        public async Task<ICollection<GetApplyJobDTO>> GetJobApplicationsAsync(int jobId)
+        {
+            Job job = await GetJobByIdAsync(jobId);
+            return _mapper.Map<ICollection<GetApplyJobDTO>>(job.ApplyJobs);
+        }
     }
 }
-

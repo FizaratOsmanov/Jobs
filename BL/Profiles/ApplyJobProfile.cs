@@ -9,6 +9,7 @@ namespace BL.Profiles
         public ApplyJobProfile()
         {
             CreateMap<CreateApplyJobDTO,ApplyJob>().ReverseMap();
+            CreateMap<GetApplyJobDTO,ApplyJob>().ReverseMap();
         }
     }
 }

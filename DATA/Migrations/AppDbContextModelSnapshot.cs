@@ -116,7 +116,7 @@ namespace DATA.Migrations
                             Id = "3ece08d2-d4a3-4d25-b78d-b75aa6651bd3",
                             AccessFailedCount = 0,
                             Address = "Baku",
-                            ConcurrencyStamp = "267b2cd8-07b6-4c0d-946b-0d9125a8d4c8",
+                            ConcurrencyStamp = "cab40485-417f-4a9d-a1ca-7096757c07a0",
                             Country = "Azerbaijan",
                             Email = "fizaratzo-ab205@code.edu.az",
                             EmailConfirmed = false,
@@ -124,12 +124,12 @@ namespace DATA.Migrations
                             LastName = "Osmanov",
                             LockoutEnabled = false,
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKw13+LQhdDWUxqoNP+HWfQi4gLs5Qk2H1WE5XtCgXQRTvuejutCrL6sDd6c7R4hHw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMu11QcUf5BqUUQ9E7f0x3kAb7rGRTiVGA8uzAVB2cLoksp7iPqSQzrbhYkylkmAiQ==",
                             PhoneNumber = "+994 (50) 732 5300",
                             PhoneNumberConfirmed = false,
                             PhotoPath = "Admin.webp",
                             Profession = "Developer",
-                            SecurityStamp = "90f39fe7-0bd2-4775-9089-e54950b21e4d",
+                            SecurityStamp = "2af831a5-c47d-4d58-a662-43a534daeefe",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
@@ -172,6 +172,9 @@ namespace DATA.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<int>("JobId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -189,6 +192,8 @@ namespace DATA.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("JobId");
 
                     b.ToTable("ApplyJobs", (string)null);
                 });
@@ -586,6 +591,17 @@ namespace DATA.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("CORE.Models.ApplyJob", b =>
+                {
+                    b.HasOne("CORE.Models.Job", "Job")
+                        .WithMany("ApplyJobs")
+                        .HasForeignKey("JobId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Job");
+                });
+
             modelBuilder.Entity("CORE.Models.Comment", b =>
                 {
                     b.HasOne("CORE.Models.AppUser", "AppUser")
@@ -669,6 +685,11 @@ namespace DATA.Migrations
             modelBuilder.Entity("CORE.Models.Category", b =>
                 {
                     b.Navigation("Jobs");
+                });
+
+            modelBuilder.Entity("CORE.Models.Job", b =>
+                {
+                    b.Navigation("ApplyJobs");
                 });
 #pragma warning restore 612, 618
         }
