@@ -31,6 +31,7 @@ namespace DATA.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Address")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
@@ -38,6 +39,7 @@ namespace DATA.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Country")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -48,9 +50,11 @@ namespace DATA.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -77,9 +81,11 @@ namespace DATA.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("PhotoPath")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Profession")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecurityStamp")
@@ -110,7 +116,7 @@ namespace DATA.Migrations
                             Id = "3ece08d2-d4a3-4d25-b78d-b75aa6651bd3",
                             AccessFailedCount = 0,
                             Address = "Baku",
-                            ConcurrencyStamp = "74177cfc-ae74-4015-b269-c79ae782b2d7",
+                            ConcurrencyStamp = "05e30928-1043-491b-a9b2-55d70859a83c",
                             Country = "Azerbaijan",
                             Email = "fizaratzo-ab205@code.edu.az",
                             EmailConfirmed = false,
@@ -118,12 +124,12 @@ namespace DATA.Migrations
                             LastName = "Osmanov",
                             LockoutEnabled = false,
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJrsIeMBxZ6NaVWhEnkW6QVno/Zw3eGDh45tOfRSyacjfHPedxRfcwVhLxz3Zn8DQA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAM3e8wekczNIJhWvqv7ImDTD4xs7F4VzqqvKL32z/vN9ogbNE4llYP+vm7/V+p36g==",
                             PhoneNumber = "+994 (50) 732 5300",
                             PhoneNumberConfirmed = false,
                             PhotoPath = "Admin.webp",
                             Profession = "Developer",
-                            SecurityStamp = "d5a76c8a-181f-483c-9dcf-5c1fad2a6bb7",
+                            SecurityStamp = "5d21162c-e387-40d4-b998-c8cf2fc88799",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
@@ -153,7 +159,9 @@ namespace DATA.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("UpdatedBy")
                         .HasColumnType("nvarchar(max)");
@@ -161,12 +169,12 @@ namespace DATA.Migrations
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("VacancyCount")
+                    b.Property<int>("VacancyCount")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("CORE.Models.Comment", b =>
@@ -177,7 +185,7 @@ namespace DATA.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<Guid?>("AppUserId")
+                    b.Property<Guid>("AppUserId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("AppUserId1")
@@ -196,18 +204,22 @@ namespace DATA.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("FirstName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("Message")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhotoPath")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Profession")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UpdatedBy")
@@ -234,11 +246,17 @@ namespace DATA.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("CategoryId1")
+                        .HasColumnType("int");
+
                     b.Property<string>("CompanyDetail")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("CompanyIconPath")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
@@ -246,7 +264,7 @@ namespace DATA.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DateLine")
+                    b.Property<DateTime>("DateLine")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DeletedBy")
@@ -256,31 +274,38 @@ namespace DATA.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("JobNature")
+                    b.Property<int>("JobNature")
                         .HasColumnType("int");
 
                     b.Property<string>("Location")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
-                    b.Property<decimal?>("MaxSalary")
+                    b.Property<decimal>("MaxSalary")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal?>("MinSalary")
+                    b.Property<decimal>("MinSalary")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Qualification")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("Responsiblity")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("UpdatedBy")
                         .HasColumnType("nvarchar(max)");
@@ -288,14 +313,16 @@ namespace DATA.Migrations
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("VacancyCount")
+                    b.Property<int>("VacancyCount")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Jobs");
+                    b.HasIndex("CategoryId1");
+
+                    b.ToTable("Jobs", (string)null);
                 });
 
             modelBuilder.Entity("CORE.Models.SliderItem", b =>
@@ -319,16 +346,22 @@ namespace DATA.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("ImgPath")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("UpdatedBy")
                         .HasColumnType("nvarchar(max)");
@@ -338,7 +371,7 @@ namespace DATA.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SliderItems");
+                    b.ToTable("SliderItems", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -507,10 +540,14 @@ namespace DATA.Migrations
             modelBuilder.Entity("CORE.Models.Job", b =>
                 {
                     b.HasOne("CORE.Models.Category", "Category")
-                        .WithMany("Jobs")
+                        .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("CORE.Models.Category", null)
+                        .WithMany("Jobs")
+                        .HasForeignKey("CategoryId1");
 
                     b.Navigation("Category");
                 });

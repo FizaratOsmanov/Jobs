@@ -1983,6 +1983,7 @@ wwwroot\Uploads\SliderItems\9e2934d1-476e-4d3b-b054-12ca4651d095careers-stock-sl
 wwwroot\Uploads\SliderItems\b79aae42-18ba-4260-bffe-78dca7e71b6cjobs-slider.jpg
 wwwroot\Uploads\SliderItems\cd7d26dd-7432-414a-807d-b39035ead3e3slidNew1.webp
 wwwroot\Uploads\UserProfiles\Admin.webp
+wwwroot\Uploads\UserProfiles\d8a82274-cb9f-400f-9d65-0eddb0244686404-4042710_circle-profile-picture-png-transparent-png.png
 wwwroot\UserPage\css\mdb.min.css
 wwwroot\UserPage\css\mdb.min.css.map
 wwwroot\UserPage\css\mdb.rtl.min.css

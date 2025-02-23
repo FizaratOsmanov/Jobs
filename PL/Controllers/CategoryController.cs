@@ -27,7 +27,7 @@ namespace PL.Controllers
             var model = categoryDTOs.Select(category => new HomeGetCategoryDTO
             {
                 Title = category.Title,
-                VacancyCount = jobs.Where(job => job.CategoryId == category.Id).Sum(job => job.VacancyCount ?? 0)
+                VacancyCount = jobs.Where(job => job.CategoryId == category.Id).Sum(job => job.VacancyCount)
             }).ToList();
             return View(model);
         }

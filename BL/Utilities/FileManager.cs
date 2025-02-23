@@ -24,7 +24,7 @@ namespace BL.Utilities
 
         public static bool IsValidImageType(this IFormFile file)
         {
-            string[] validTypes = { "image/jpeg", "image/png", "image/jpg", "image/webp", "image/bmp", "image/gif","image/avif" };
+            string[] validTypes = { "image/jpeg", "image/png", "image/jpg", "image/webp", "image/bmp", "image/gif" };
             return validTypes.Contains(file.ContentType);
         }
     }

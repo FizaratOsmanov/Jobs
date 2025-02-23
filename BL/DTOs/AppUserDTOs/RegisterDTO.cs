@@ -1,6 +1,7 @@
 ﻿using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.Metrics;
 
 namespace BL.DTOs.AppUserDTOs
 {
@@ -42,9 +43,13 @@ namespace BL.DTOs.AppUserDTOs
         public string ConfirmPassword { get; set; }
 
 
+
+
         [Display(Prompt = "Profession")]
         [Required]
         public string Profession { get; set; }
+
+
 
 
         [Display(Prompt = "Address")]
@@ -55,7 +60,6 @@ namespace BL.DTOs.AppUserDTOs
         [Display(Prompt = "Country")]
         [Required]
         public string Country { get; set; }
-
 
 
         [Display(Prompt = "PhoneNumber")]
@@ -83,6 +87,20 @@ namespace BL.DTOs.AppUserDTOs
             RuleFor(e => e.ConfirmPassword)
                 .NotEmpty().WithMessage("Confirm password cannot be empty!")
                 .Equal(e => e.Password).WithMessage("Passwords don't match!");
+            RuleFor(e => e.FirstName)
+                .NotEmpty().WithMessage("FirstName cannot be empty!")
+                .MinimumLength(2).WithMessage("FirstName must be at least 2 symbols long!");
+            RuleFor(e => e.LastName)
+                .NotEmpty().WithMessage("LastName cannot be empty!")
+                .MinimumLength(1).WithMessage("LastName must be at least 1 symbols long!");
+            RuleFor(e => e.Profession)
+                .NotEmpty().WithMessage("Profession cannot be empty!");
+            RuleFor(e => e.Address)
+                .NotEmpty().WithMessage("Address cannot be empty!");
+            RuleFor(e => e.Country)
+               .NotEmpty().WithMessage("Country cannot be empty!");
+            RuleFor(e => e.PhoneNumber)
+               .NotEmpty().WithMessage("PhoneNumber cannot be empty!");
         }
     }
 }

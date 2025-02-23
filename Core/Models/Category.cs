@@ -4,8 +4,8 @@ namespace CORE.Models
 {
     public  class Category:BaseEntity
     {
-        public string? Title { get; set; }
-        public int? VacancyCount { get; set; }
+        public string Title { get; set; }
+        public int VacancyCount { get; set; }
         public ICollection<Job> Jobs { get; set; }
     }
 }
