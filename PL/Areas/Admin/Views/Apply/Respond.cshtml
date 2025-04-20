@@ -1,0 +1,47 @@
+﻿@model RespondToApplyDTO
+
+@{
+    ViewData["Title"] = "Respond to Application";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0"><i class="bi bi-reply-fill"></i> Respond to Application</h4>
+        </div>
+        <div class="card-body">
+
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    @TempData["Error"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            <form asp-action="RespondToApplication" method="post">
+                <input type="hidden" asp-for="ApplyId" />
+
+                <div class="form-floating mb-3">
+                    <input asp-for="ApplyName" class="form-control" readonly />
+                    <label asp-for="ApplyName"><i class="bi bi-person"></i> Applicant Name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="ApplyEmail" class="form-control" readonly />
+                    <label asp-for="ApplyEmail"><i class="bi bi-envelope"></i> Applicant Email</label>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Response" class="form-label fw-bold"><i class="bi bi-chat-text"></i> Response</label>
+                    <textarea asp-for="Response" class="form-control" rows="5" placeholder="Write your response here..." required></textarea>
+                </div>
+
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-success me-2"><i class="bi bi-send"></i> Send Response</button>
+                    <a asp-action="Index" class="btn btn-secondary"><i class="bi bi-x-circle"></i> Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

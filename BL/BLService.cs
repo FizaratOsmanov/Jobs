@@ -32,6 +32,7 @@ namespace BL
             services.AddScoped<ICommentService, CommentService>();
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<IApplyJobService, ApplyJobService>();
+            
 
 
 

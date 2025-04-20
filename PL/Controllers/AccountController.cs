@@ -2,8 +2,10 @@
 using BL.DTOs.AppUserDTOs;
 using BL.Exceptions;
 using BL.Services.Abstractions;
+using BL.Utilities;
 using CORE.Enums;
 using CORE.Models;
+using DATA.Contexts;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,14 +17,14 @@ namespace PL.Controllers
         private readonly IAccountService _service;
         private readonly UserManager<AppUser> _userManager;
         private readonly IMapper _mapper;
-        public AccountController(IAccountService service, UserManager<AppUser> userManager,IMapper mapper)
+        private readonly AppDbContext _context;
+        public AccountController(IAccountService service, UserManager<AppUser> userManager, IMapper mapper,AppDbContext context)
         {
             _service = service;
             _userManager = userManager;
-            _mapper = mapper;   
+            _mapper = mapper;
+            _context = context;
         }
-
-       
         public async Task<IActionResult> Index()
         {
             if (User.Identity is not { IsAuthenticated: true })
@@ -36,7 +38,7 @@ namespace PL.Controllers
             var userDto = await _service.GetCurrentUserAsync(userId);
             return View(userDto);
         }
-        
+
         public IActionResult Login()
         {
             if (User.Identity is not null && User.Identity.IsAuthenticated)
@@ -121,15 +123,10 @@ namespace PL.Controllers
                 return BadRequest();
             }
         }
-
-
-        
         public IActionResult ChangePassword()
         {
             return View(new ChangePasswordDTO());
         }
-
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ChangePassword(ChangePasswordDTO dto)
@@ -156,39 +153,41 @@ namespace PL.Controllers
             }
         }
 
-
-        public async  Task<IActionResult> Edit()
-        {
-            var userId = _userManager.GetUserId(User);
-            if (userId == null)
-                return RedirectToAction("Login");
-            var user =await  _service.GetCurrentUserAsync(userId);
-            var dto = _mapper.Map<UserPageEditDTO>(user);
-            dto.Id = userId; 
-            return View(dto);
-        }
+        
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(UserPageEditDTO dto)
+        public async Task<IActionResult> UploadOrUpdateProfilePhoto(IFormFile Photo, string Id)
         {
-            if (!ModelState.IsValid)
+            if (Photo == null || Photo.Length == 0)
             {
-                ModelState.AddModelError("Error", "Invalid data.");
-                return View(dto);
+                return BadRequest("No photo uploaded.");
             }
 
-            try
+            var user = await _context.Users.FindAsync(Id);
+            if (user == null)
             {
-                await _service.EditAsync(dto);
-                return RedirectToAction("Index");
+                return NotFound();
             }
-            catch (BaseException ex)
+
+            if (!string.IsNullOrEmpty(user.PhotoPath))
             {
-                ModelState.AddModelError("Error", ex.Message);
-                return View(dto);
+                var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Uploads", "UserProfiles", user.PhotoPath);
+                if (System.IO.File.Exists(oldFilePath))
+                {
+                    System.IO.File.Delete(oldFilePath);
+                }
             }
+
+            string newFileName = await Photo.SaveAsync("UserProfiles");
+            if (string.IsNullOrEmpty(newFileName))
+            {
+                return BadRequest("Failed to save the new photo.");
+            }
+            user.PhotoPath = newFileName;
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Index");
         }
-
     }
 }

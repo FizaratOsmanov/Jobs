@@ -1,4 +1,5 @@
 ﻿using BL.DTOs.AppUserDTOs;
+using Microsoft.AspNetCore.Http;
 namespace BL.Services.Abstractions;
 
 public interface IAccountService
@@ -8,6 +9,6 @@ public interface IAccountService
     Task LogoutAsync();
     Task<UserPageGetDTO> GetCurrentUserAsync(string userId);
     Task ChangePasswordAsync(string userId, ChangePasswordDTO dto);
-    Task EditAsync(UserPageEditDTO dto);
     Task<ICollection<AdminGetDTO>> GetAllUsersAsync();
+    Task UpdateProfilePhotoAsync(string userId, IFormFile photo);
 }

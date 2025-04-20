@@ -1,0 +1,37 @@
+﻿@model List<JobListDTO>
+
+@{
+    int currentPage = ViewBag.CurrentPage;
+    int totalPages = ViewBag.TotalPages;
+    int categoryId = ViewBag.CategoryId;
+}
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <h1 class="text-center mb-5">Jobs in this Category</h1>
+        <div class="row g-4">
+            @foreach (var job in Model)
+            {
+                <partial name="_JobItemPartial" model="job" />
+            }
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination">
+            @if (currentPage > 1)
+            {
+                <a class="btn btn-primary" asp-action="ByCategory" asp-route-categoryId="@categoryId" asp-route-page="@(currentPage - 1)">Previous</a>
+            }
+
+            @for (int i = 1; i <= totalPages; i++)
+            {
+                <a class="btn @(i == currentPage ? "btn-dark" : "btn-light")" asp-action="ByCategory" asp-route-categoryId="@categoryId" asp-route-page="@i">@i</a>
+            }
+
+            @if (currentPage < totalPages)
+            {
+                <a class="btn btn-primary" asp-action="ByCategory" asp-route-categoryId="@categoryId" asp-route-page="@(currentPage + 1)">Next</a>
+            }
+        </div>
+    </div>
+</div>

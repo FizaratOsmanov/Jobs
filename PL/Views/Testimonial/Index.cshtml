@@ -1,32 +1,53 @@
 ﻿@model ICollection<GetCommentDTO>
-
 <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container">
         <h1 class="text-center mb-5">Our Clients Say!!!</h1>
 
-        <div class="d-flex justify-content-end mb-3">
-            <!-- Modal açan düymə -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#commentModal">
-                Add Comment
-            </button>
-        </div>
-
         <div id="commentList">
-            @foreach (var item in Model.OrderBy(c => c.FirstName))  
+            @foreach (var item in Model.OrderBy(c => c.UserId))
             {
                 @if (item.IsDeleted == false)
                 {
                     <div class="testimonial-item bg-light rounded p-3 mb-3 d-flex align-items-center" style="max-width: 100%; min-height: 80px;">
                         <img class="img-fluid rounded-circle me-3" src="Uploads/UserProfiles/@item.PhotoPath" style="width: 60px; height: 60px;">
-                    <div class="me-3">
-                        <h5 class="mb-1">@item.FirstName</h5>
-                        <small class="text-muted">@item.Profession</small>
+                        <div class="me-3">
+                            <h5 class="mb-1">@item.FirstName</h5>
+                            <small class="text-muted">@item.Profession</small>
+                        </div>
+                        <p class="mb-0 flex-grow-1">@item.Message</p>
+
+                        @foreach (var testimonial in Model)
+                        {
+                            <div>
+
+                                @if (User.Identity.IsAuthenticated && testimonial.UserId == User.Identity.Name)
+                                {
+                                    <form asp-controller="Testimonial" asp-action="Delete" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@testimonial.Id" />
+                                        <button type="submit" class="btn btn-danger btn-sm ms-3" onclick="return confirm('Are you sure you want to delete this comment?')">
+                                            <i class="bi bi-trash"></i>
+                                        </button>
+                                    </form>
+                                }
+                            </div>
+                        }
                     </div>
-                    <p class="mb-0 flex-grow-1">@item.Message</p>
-                </div>
                 }
             }
         </div>
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="d-flex justify-content-center mb-3">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#commentModal">
+                    Add Comment
+                </button>
+            </div>
+        }
+        else
+        {
+            <p class="text-center text-warning">Please log in to add a comment.</p>
+        }
     </div>
 </div>
 

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CORE.Models.Base;
+﻿using CORE.Models.Base;
 
 namespace CORE.Models
 {
@@ -15,6 +10,7 @@ namespace CORE.Models
         public string CV { get; set; }
         public string CoverLetter { get; set; }
         public int JobId {  get; set; }
+        public string? Response {  get; set; }
         public Job Job { get; set; }
     }
 }

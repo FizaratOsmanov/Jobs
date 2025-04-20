@@ -13,5 +13,7 @@ namespace BL.Services.Abstractions
         Task UpdateJobAsync(UpdateJobDTO dto);  
         Task SoftDeleteJobAsync(int id);
         Task HardDeleteJobAsync(int id);
+
+        Task<List<JobListDTO>> GetJobsByCategoryAsync(int categoryId);
     }
 }

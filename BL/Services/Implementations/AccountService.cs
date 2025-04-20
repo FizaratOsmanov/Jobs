@@ -5,6 +5,7 @@ using BL.Services.Abstractions;
 using BL.Utilities;
 using CORE.Enums;
 using CORE.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 namespace BL.Services.Implementations
@@ -27,7 +28,6 @@ namespace BL.Services.Implementations
             if (await _userManager.FindByEmailAsync(dto.Email) is not null)
                 throw new BaseException("Username or email is already taken.");
             AppUser user = _mapper.Map<AppUser>(dto);
-            if (user.PhotoPath is null) user.PhotoPath = await dto.Photo.SaveAsync("UserProfiles");
             IdentityResult result = await _userManager.CreateAsync(user, dto.Password);
             if (!result.Succeeded)
             {
@@ -78,29 +78,43 @@ namespace BL.Services.Implementations
             if (!result.Succeeded)
                 throw new BaseException("Password change failed ");
         }
-        public async Task EditAsync(UserPageEditDTO dto)
-        {
-            var user = await _userManager.FindByIdAsync(dto.Id) ?? throw new BaseException("User not found");
-
-            UserPageEditDTO editDto=_mapper.Map<UserPageEditDTO>(user);
-
-            if (dto.Photo != null)
-            {
-                user.PhotoPath = await dto.Photo.SaveAsync("UserProfiles");
-            }
-
-            var result = await _userManager.UpdateAsync(user);
-            if (!result.Succeeded)
-            {
-                throw new BaseException("Profile update failed ");
-            }
-        }
-
         public async Task<ICollection<AdminGetDTO>> GetAllUsersAsync()
         {
             var users = await _userManager.Users.ToListAsync();
             return _mapper.Map<ICollection<AdminGetDTO>>(users);
         }
+        public async Task UpdateProfilePhotoAsync(string userId, IFormFile photo)
+        {
+            if (photo == null || photo.Length == 0)
+            {
+                throw new ArgumentException("Photo is required");
+            }
 
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                throw new KeyNotFoundException("User not found");
+            }
+            if (!string.IsNullOrEmpty(user.PhotoPath))
+            {
+                var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Uploads", "UserProfiles", user.PhotoPath);
+                if (System.IO.File.Exists(oldFilePath))
+                {
+                    System.IO.File.Delete(oldFilePath);
+                }
+            }
+            string newFileName = await photo.SaveAsync("UserProfiles");
+            if (string.IsNullOrEmpty(newFileName))
+            {
+                throw new Exception("Failed to save the new photo");
+            }
+            user.PhotoPath = newFileName;
+            var result = await _userManager.UpdateAsync(user);
+
+            if (!result.Succeeded)
+            {
+                throw new Exception("Failed to update profile photo: " + string.Join(", ", result.Errors.Select(e => e.Description)));
+            }
+        }
     }
 }

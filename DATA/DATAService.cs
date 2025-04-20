@@ -12,6 +12,7 @@ namespace DATA
             services.AddScoped<IJobRepository, JobRepository>();
             services.AddScoped<ICommentRepository, CommentRepository>();
             services.AddScoped<ISliderItemRepository, SliderItemRepository>();
+            services.AddScoped<IUserLikeRepository, UserLikeRepository>();
         }
     }
 }

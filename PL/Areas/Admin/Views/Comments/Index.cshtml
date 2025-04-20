@@ -7,7 +7,8 @@
 <div class="container mt-4">
     <h2 class="text-center text-primary mb-4">Comments</h2>
 
-    <div class="table-responsive">
+    <!-- Skroll tətbiqi olan bölmə -->
+    <div class="table-responsive" style="max-height: 400px; overflow-y: auto;">
         <table class="table table-hover table-striped shadow-sm rounded">
             <thead class="bg-dark text-white">
                 <tr>
@@ -22,11 +23,10 @@
                     <tr>
                         <td class="align-middle text-center">@item.Message</td>
                         <td class="align-middle text-center">@item.IsDeleted</td>
-
                         <td class="align-middle text-center">
                             <form asp-action="SoftDelete" method="post" class="d-inline">
                                 <input type="hidden" name="id" value="@item.Id" />
-                                <button type="submit" class="btn btn-sm btn-warning">SoftDelete</button>
+                                <button type="submit" class="btn btn-sm btn-warning" @(item.IsDeleted ? "disabled" : "")>SoftDelete</button>
                             </form>
                             <form asp-action="HardDelete" method="post" class="d-inline">
                                 <input type="hidden" name="id" value="@item.Id" />

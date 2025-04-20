@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BL.DTOs.CategoryDTOs;
-using BL.DTOs.CommentDTOs;
-using BL.Exceptions;
+﻿using BL.DTOs.CommentDTOs;
 using CORE.Models;
 namespace BL.Services.Abstractions
 {
@@ -15,7 +8,7 @@ namespace BL.Services.Abstractions
         Task SoftDeleteCommentAsync(int id);
         Task<ICollection<GetCommentDTO>> GetAllCommentForViewAsync();
         Task<ICollection<AdminGetCommentDTO>> GetAllCommentForAdminAsync();
-        Task<Comment> GetCommentByIdForAsync(int id);
+        Task<Comment> GetCommentByIdAsync(int id);
         Task CreateCommentAsync(CreateCommentDTO dto, string userId);
 
     }

@@ -1,14 +1,13 @@
 ﻿using AutoMapper;
-using BL.DTOs.JobDTOs;
 using BL.DTOs.ApplyJobDTOs;
+using BL.DTOs.JobDTOs;
 using BL.Exceptions;
 using BL.Services.Abstractions;
 using BL.Utilities;
 using CORE.Models;
+using DATA.Contexts;
 using DATA.Repositories.Abstractions;
-using System.IO;
-using System.Threading.Tasks;
-using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 
 namespace BL.Services.Implementations
 {
@@ -17,13 +16,15 @@ namespace BL.Services.Implementations
         private readonly IJobRepository _jobRepository;
         private readonly ICategoryRepository _categoryRepository;
         private readonly IApplyJobService _applyJobService;
+        private readonly AppDbContext _appDbContext;
         private readonly IMapper _mapper;
 
-        public JobService(IJobRepository jobRepository, ICategoryRepository categoryRepository, IApplyJobService applyJobService, IMapper mapper)
+        public JobService(IJobRepository jobRepository, ICategoryRepository categoryRepository, IApplyJobService applyJobService, IMapper mapper,AppDbContext appDbContext)
         {
             _jobRepository = jobRepository;
             _categoryRepository = categoryRepository;
             _applyJobService = applyJobService;
+            _appDbContext = appDbContext;
             _mapper = mapper;
         }
 
@@ -94,20 +95,22 @@ namespace BL.Services.Implementations
 
         public async Task UpdateJobAsync(UpdateJobDTO dto)
         {
-            if (await _categoryRepository.GetByIdAsync(dto.CategoryId) is null) throw new BaseException("Category not found!");
-
             Job? oldJob = await GetJobByIdAsync(dto.Id);
             if (oldJob == null) throw new BaseException("Job not found!");
 
             Job newJob = _mapper.Map<Job>(dto);
             newJob.CreatedDate = oldJob.CreatedDate;
-            newJob.CompanyIconPath = dto.CompanyIcon is not null ? await dto.CompanyIcon.SaveAsync("Jobs") : oldJob.CompanyIconPath;
+
+            newJob.CompanyIconPath = dto.CompanyIcon != null
+                ? await dto.CompanyIcon.SaveAsync("Jobs")
+                : oldJob.CompanyIconPath;
 
             _jobRepository.Update(newJob);
-            if (dto.CompanyIcon is not null)
+            if (dto.CompanyIcon != null)
             {
                 File.Delete(Path.Combine("wwwroot", "Uploads", "Jobs", oldJob.CompanyIconPath));
             }
+
             await _jobRepository.SaveChangesAsync();
         }
 
@@ -115,6 +118,24 @@ namespace BL.Services.Implementations
         {
             Job job = await GetJobByIdAsync(jobId);
             return _mapper.Map<ICollection<GetApplyJobDTO>>(job.ApplyJobs);
+        }
+
+        public async Task<List<JobListDTO>> GetJobsByCategoryAsync(int categoryId)
+        {
+            return await _appDbContext.Jobs
+                .Where(j => j.CategoryId == categoryId && !j.IsDeleted)
+                .Select(j => new JobListDTO
+                {
+                    Id = j.Id,
+                    Title = j.Title,
+                    Location = j.Location,
+                    JobNature = j.JobNature,
+                    MinSalary = j.MinSalary,
+                    MaxSalary = j.MaxSalary,
+                    CompanyIconPath = j.CompanyIconPath,
+                    DateLine = j.DateLine
+                })
+                .ToListAsync();
         }
     }
 }

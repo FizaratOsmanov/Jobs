@@ -13,8 +13,10 @@ namespace PL.Controllers
         }
         public async  Task<IActionResult> Index()
         {
-            ICollection<GetSliderItemDTO> dto =await  sliderItemService.GetAllSliderItemAsync(); 
+            ICollection<GetSliderItemDTO> dto =await  sliderItemService.GetAllSliderItemAsync();
             return View(dto);
         }
+
+
     }
 }

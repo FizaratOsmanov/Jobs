@@ -1,7 +1,7 @@
-﻿using CORE.Enums;
+﻿using BL.Utilities;
+using CORE.Enums;
 using FluentValidation;
 using Microsoft.AspNetCore.Http;
-using BL.Utilities;
 namespace BL.DTOs.JobDTOs
 {
     public record CreateJobDTO
@@ -47,15 +47,15 @@ namespace BL.DTOs.JobDTOs
 
             RuleFor(x => x.Description)
                 .NotEmpty().WithMessage("Description is required.")
-                .MinimumLength(20).WithMessage("Description must be at least 20 characters long.");
+                .MinimumLength(5).WithMessage("Description must be at least 20 characters long.");
 
             RuleFor(x => x.Responsiblity)
                 .NotEmpty().WithMessage("Responsibility is required.")
-                .MinimumLength(20).WithMessage("Responsibility must be at least 20 characters long.");
+                .MinimumLength(5).WithMessage("Responsibility must be at least 20 characters long.");
 
             RuleFor(x => x.Qualification)
                 .NotEmpty().WithMessage("Qualification is required.")
-                .MinimumLength(10).WithMessage("Qualification must be at least 10 characters long.");
+                .MinimumLength(5).WithMessage("Qualification must be at least 10 characters long.");
 
             RuleFor(x => x.DateLine)
                 .GreaterThan(DateTime.Now).WithMessage("Deadline cannot be a past date.");
@@ -65,7 +65,7 @@ namespace BL.DTOs.JobDTOs
 
             RuleFor(x => x.CompanyDetail)
                 .NotEmpty().WithMessage("Company details are required.")
-                .MinimumLength(10).WithMessage("Company details must be at least 10 characters long.");
+                .MinimumLength(5).WithMessage("Company details must be at least 10 characters long.");
 
             RuleFor(x => x.CategoryId)
                 .GreaterThan(0).WithMessage("Category ID must be greater than 0.");

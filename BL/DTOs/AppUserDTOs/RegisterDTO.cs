@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using BL.Utilities;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.Metrics;
@@ -66,8 +67,7 @@ namespace BL.DTOs.AppUserDTOs
         [Required]
         public string PhoneNumber { get; set; }
 
-        [Display(Prompt = "Add profile photo")]
-        public IFormFile Photo { get; set; }     
+            
     }
 
     public class RegisterDTOValidation : AbstractValidator<RegisterDTO>
@@ -100,7 +100,9 @@ namespace BL.DTOs.AppUserDTOs
             RuleFor(e => e.Country)
                .NotEmpty().WithMessage("Country cannot be empty!");
             RuleFor(e => e.PhoneNumber)
-               .NotEmpty().WithMessage("PhoneNumber cannot be empty!");
+               .NotEmpty().WithMessage("PhoneNumber cannot be empty!").Must(FileManager.IsValidPhoneNumber).WithMessage("Invalid phone number format!");
+
+
         }
     }
 }

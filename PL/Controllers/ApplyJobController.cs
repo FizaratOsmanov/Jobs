@@ -44,7 +44,7 @@ namespace WebApp.Controllers
 
 
                 TempData["Success"] = "Müraciətiniz uğurla göndərildi!";
-                return RedirectToAction("Index", "Job", new { id = dto.JobId });
+                return RedirectToAction("Index", "JobList", new { id = dto.JobId });
             }
             catch (BaseException ex)
             {
@@ -53,23 +53,6 @@ namespace WebApp.Controllers
             }
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // ✅ Müəyyən bir işin müraciətlərini silmək üçün
         [HttpPost]
         public async Task<IActionResult> DeleteApplications(int jobId)
         {
@@ -87,14 +70,6 @@ namespace WebApp.Controllers
 
 
 
-
-
-
-
-
-
-
-        // ✅ Müəyyən bir işə edilən bütün müraciətləri göstərir (Admin Panel üçün)
         [HttpGet]
         public async Task<IActionResult> JobApplications(int jobId)
         {

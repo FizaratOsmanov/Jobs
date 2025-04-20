@@ -30,6 +30,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 });
 
 var app = builder.Build();
+
 app.UseStaticFiles();
 app.MapControllerRoute(
     name: "areas",

@@ -2,6 +2,7 @@
 using BL.Exceptions;
 using BL.Services.Abstractions;
 using CORE.Enums;
+using CORE.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -94,6 +95,12 @@ namespace PL.Areas.Admin.Controllers
             try
             {
                 ViewData["Categories"] = new SelectList(await _categoryService.GetCategoryAdminItemsAsync(), "Id", "Title");
+                var job = await _jobService.GetJobByIdForUpdateAsync(id);
+
+                if (!string.IsNullOrEmpty(job.CompanyIconPath))
+                {
+                    job.CompanyIconPath = job.CompanyIconPath; 
+                }
                 return View(await _jobService.GetJobByIdForUpdateAsync(id));
             }
             catch (BaseException ex)
@@ -118,6 +125,12 @@ namespace PL.Areas.Admin.Controllers
 
             try
             {
+
+                if (dto.CompanyIcon == null)
+                {
+                    var existingJob = await _jobService.GetJobByIdForUpdateAsync(dto.Id);
+                    dto.CompanyIconPath = existingJob.CompanyIconPath; 
+                }
                 await _jobService.UpdateJobAsync(dto);
                 return RedirectToAction("Index");
             }

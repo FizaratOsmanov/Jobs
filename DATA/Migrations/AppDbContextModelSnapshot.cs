@@ -81,7 +81,6 @@ namespace DATA.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("PhotoPath")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Profession")
@@ -116,7 +115,7 @@ namespace DATA.Migrations
                             Id = "3ece08d2-d4a3-4d25-b78d-b75aa6651bd3",
                             AccessFailedCount = 0,
                             Address = "Baku",
-                            ConcurrencyStamp = "cab40485-417f-4a9d-a1ca-7096757c07a0",
+                            ConcurrencyStamp = "6c498e56-5682-4487-8213-bd54af4b7cc3",
                             Country = "Azerbaijan",
                             Email = "fizaratzo-ab205@code.edu.az",
                             EmailConfirmed = false,
@@ -124,12 +123,12 @@ namespace DATA.Migrations
                             LastName = "Osmanov",
                             LockoutEnabled = false,
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMu11QcUf5BqUUQ9E7f0x3kAb7rGRTiVGA8uzAVB2cLoksp7iPqSQzrbhYkylkmAiQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKsAArTumk3H8PZ1/wPHYJWhXq/Z7RJo9y0+5TQOsVmA17TTuKa427pdn28WX7HyIg==",
                             PhoneNumber = "+994 (50) 732 5300",
                             PhoneNumberConfirmed = false,
                             PhotoPath = "Admin.webp",
                             Profession = "Developer",
-                            SecurityStamp = "2af831a5-c47d-4d58-a662-43a534daeefe",
+                            SecurityStamp = "9c453b5e-5e2b-4b4d-b51f-e0573e195f8d",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
@@ -184,6 +183,9 @@ namespace DATA.Migrations
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("Response")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UpdatedBy")
                         .HasColumnType("nvarchar(max)");
@@ -437,6 +439,51 @@ namespace DATA.Migrations
                     b.ToTable("SliderItems", (string)null);
                 });
 
+            modelBuilder.Entity("CORE.Models.UserLike", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DeletedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("JobId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("JobId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserLikes");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -626,6 +673,25 @@ namespace DATA.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("CORE.Models.UserLike", b =>
+                {
+                    b.HasOne("CORE.Models.Job", "Job")
+                        .WithMany()
+                        .HasForeignKey("JobId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CORE.Models.AppUser", "User")
+                        .WithMany("LikedJobs")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Job");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -680,6 +746,8 @@ namespace DATA.Migrations
             modelBuilder.Entity("CORE.Models.AppUser", b =>
                 {
                     b.Navigation("Comments");
+
+                    b.Navigation("LikedJobs");
                 });
 
             modelBuilder.Entity("CORE.Models.Category", b =>

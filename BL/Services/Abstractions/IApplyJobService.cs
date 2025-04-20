@@ -7,5 +7,7 @@ namespace BL.Services.Abstractions
         Task<ICollection<GetApplyJobDTO>> GetApplicationsByJobIdAsync(int jobId);
         Task DeleteApplicationsByJobIdAsync(int jobId);
         Task SendEmailAsync(ApplyJob applyJob, string cvFilename);
+        Task SendResponseEmailAsync(ApplyJob application, string response);
+        Task<ICollection<GetApplyJobDTO>> GetAllApplicationsAsync();
     }
 }

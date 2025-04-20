@@ -15,6 +15,7 @@ public class AppDbContext:IdentityDbContext<AppUser,IdentityRole,string>
     public DbSet<Job> Jobs { get; set; }
     public DbSet<SliderItem> SliderItems { get; set; }
     public DbSet<ApplyJob> ApplyJobs { get; set; }
+    public DbSet<UserLike> UserLikes { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

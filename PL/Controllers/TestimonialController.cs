@@ -3,7 +3,6 @@ using BL.DTOs.CommentDTOs;
 using BL.Exceptions;
 using BL.Services.Abstractions;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
 
 namespace PL.Controllers
 {
@@ -48,7 +47,7 @@ namespace PL.Controllers
                 var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
                 if (userId == null)
                 {
-                    return Unauthorized(new { success = false, message = "User is not logged in. You must LOGIN first" });
+                    return RedirectToAction("Index", "Error404");
                 }
                 await _commentService.CreateCommentAsync(dto, userId);
                 return RedirectToAction("Index");
@@ -63,5 +62,11 @@ namespace PL.Controllers
             }
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _commentService.SoftDeleteCommentAsync(id);
+            return RedirectToAction("Index");
+        }
     }
 }

@@ -25,11 +25,7 @@ namespace BL.DTOs.AppUserDTOs
 
             RuleFor(x => x.NewPassword)
                 .NotEmpty().WithMessage("New password is required.")
-                .MinimumLength(8).WithMessage("New password must be at least 8 characters long.")
-                .Matches("[A-Z]").WithMessage("New password must contain at least one uppercase letter.")
-                .Matches("[a-z]").WithMessage("New password must contain at least one lowercase letter.")
-                .Matches("[0-9]").WithMessage("New password must contain at least one number.")
-                .Matches("[^a-zA-Z0-9]").WithMessage("New password must contain at least one special character (!@#$%^&* etc.).");
+                .MinimumLength(4).WithMessage("New password must be at least 8 characters long.");
 
             RuleFor(x => x.RepeatNewPassword)
                 .NotEmpty().WithMessage("Repeat new password is required.")

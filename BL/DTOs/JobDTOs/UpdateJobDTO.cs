@@ -8,6 +8,8 @@ namespace BL.DTOs.JobDTOs
     {
         public int Id { get; set; }
         public IFormFile CompanyIcon { get; set; }
+        public string CompanyIconPath { get; set; } 
+
         public string Title { get; set; }
         public string Location { get; set; }
         public decimal MinSalary { get; set; }

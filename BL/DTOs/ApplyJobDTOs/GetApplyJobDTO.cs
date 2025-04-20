@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-
-namespace BL.DTOs.ApplyJobDTOs
+﻿namespace BL.DTOs.ApplyJobDTOs
 {
     public class GetApplyJobDTO
     {
@@ -13,7 +6,7 @@ namespace BL.DTOs.ApplyJobDTOs
         public string Name { get; set; }
         public string Email { get; set; }
         public string Portfolio { get; set; }
-        public IFormFile CV { get; set; }
+        public string CV { get; set; }
         public string CoverLetter { get; set; }
 
         public int JobId { get; set; }

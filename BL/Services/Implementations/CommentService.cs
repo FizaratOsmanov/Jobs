@@ -5,8 +5,6 @@ using BL.Services.Abstractions;
 using CORE.Models;
 using DATA.Contexts;
 using DATA.Repositories.Abstractions;
-using DATA.Repositories.Implementations;
-using Microsoft.EntityFrameworkCore;
 
 namespace BL.Services.Implementations;
 
@@ -24,7 +22,7 @@ public class CommentService : ICommentService
         _accountService = accountService;
     }
 
-    public async Task<Comment> GetCommentByIdForAsync(int id)
+    public async Task<Comment> GetCommentByIdAsync(int id)
     {
         Comment? comment = await _commentRepository.GetByIdAsync(id, "AppUser");
         if (comment == null) throw new BaseException("Comment not found");
@@ -52,7 +50,6 @@ public class CommentService : ICommentService
         {
             throw new BaseException("User not found");
         }
-
         Comment comment = new()
         {
             Message = dto.Message,
@@ -62,7 +59,6 @@ public class CommentService : ICommentService
             PhotoPath = user.PhotoPath,
             CreatedDate = DateTime.UtcNow
         };
-
         await _commentRepository.CreateAsync(comment);
         await _commentRepository.SaveChangesAsync();
     }
@@ -70,14 +66,14 @@ public class CommentService : ICommentService
 
     public async Task HardDeleteCommentAsync(int id)
     {
-        Comment? comment = await GetCommentByIdForAsync(id) ?? throw new BaseException("Comment not Found");
+        Comment? comment = await GetCommentByIdAsync(id) ?? throw new BaseException("Comment not Found");
         _commentRepository.HardDelete(comment);
         await _commentRepository.SaveChangesAsync();
 
     }
     public async Task SoftDeleteCommentAsync(int id)
     {
-        Comment? comment = await GetCommentByIdForAsync(id) ?? throw new BaseException("Comment not Found");
+        Comment? comment = await GetCommentByIdAsync(id) ?? throw new BaseException("Comment not Found");
         _commentRepository.SoftDelete(comment);
         await _commentRepository.SaveChangesAsync();
     }

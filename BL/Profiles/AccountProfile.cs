@@ -12,9 +12,9 @@ namespace BL.Profiles
             CreateMap<LoginDTO ,AppUser>().ReverseMap();
             CreateMap<RegisterDTO ,AppUser>().ReverseMap();
             CreateMap<UserPageGetDTO ,AppUser>().ReverseMap();
-            CreateMap<UserPageEditDTO ,AppUser>().ReverseMap();
             CreateMap<ChangePasswordDTO ,AppUser>().ReverseMap();
             CreateMap<AdminGetDTO ,AppUser>().ReverseMap();
+            CreateMap<EditProfilPhotoDTO ,AppUser>().ReverseMap();
         }
     }
 }

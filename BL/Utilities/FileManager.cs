@@ -43,5 +43,12 @@ namespace BL.Utilities
             var fileExtension = Path.GetExtension(file.FileName)?.ToLower();
             return allowedExtensions.Contains(fileExtension);
         }
+
+        public static bool IsValidPhoneNumber(string phoneNumber)
+        {
+            if (string.IsNullOrWhiteSpace(phoneNumber)) return false;
+            var regex = new Regex(@"^0\d{9}$");
+            return regex.IsMatch(phoneNumber);
+        }
     }
 }

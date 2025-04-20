@@ -82,16 +82,15 @@
                                     <span class="text-danger" asp-validation-for="PhoneNumber"></span>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <input type="file" class="form-control" asp-for="Photo" />
-                                <span class="text-danger" asp-validation-for="Photo"></span>
-                            </div>
                             <p class="text-danger text-center">@Html.ValidationMessage("Error")</p>
                             <button type="submit" class="btn btn-primary btn-user btn-block">Register</button>
                         </form>
                         <hr>
                         <div class="text-center">
                             <a class="small" asp-action="Login">Already have an account? Login!</a>
+                        </div>
+                        <div class="text-center">
+                            <a class="small" asp-controller="Home" asp-action="Index">Back!</a>
                         </div>
                     </div>
                 </div>

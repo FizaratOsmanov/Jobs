@@ -35,7 +35,7 @@ namespace BL.DTOs.ApplyJobDTOs
 
             RuleFor(x => x.CoverLetter)
                 .NotEmpty().WithMessage("Cover letter is required.")
-                .MinimumLength(50).WithMessage("Cover letter must be at least 50 characters long.");
+                .MinimumLength(5).WithMessage("Cover letter must be at least 50 characters long.");
         }
     }
 }
